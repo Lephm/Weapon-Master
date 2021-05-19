@@ -19,7 +19,7 @@ public class StartupScript : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
-        selectedRegionCode = regionsCodes[0];
+        UpdateCurrentRegionCode();
     }
 
     public void StartGame()
@@ -68,14 +68,18 @@ public class StartupScript : MonoBehaviourPunCallbacks
     public void NextRegion()
     {
         selectedRegionIndex = (selectedRegionIndex + 1) % regionsCodes.Length;
+        UpdateCurrentRegionCode();
+
+    }
+
+    private void UpdateCurrentRegionCode()
+    {
         selectedRegionCode = regionsCodes[selectedRegionIndex];
         regionCodeDisplay.text = selectedRegionCode;
-        
     }
 
 
-    
-    
+
 
 
 

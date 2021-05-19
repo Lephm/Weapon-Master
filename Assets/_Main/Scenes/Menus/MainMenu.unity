@@ -6284,6 +6284,7 @@ GameObject:
   - component: {fileID: 1679271688}
   - component: {fileID: 1679271690}
   - component: {fileID: 1679271689}
+  - component: {fileID: 1679271691}
   m_Layer: 5
   m_Name: Knight
   m_TagString: Untagged
@@ -6348,6 +6349,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679271687}
   m_CullTransparentMesh: 1
+--- !u!95 &1679271691
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679271687}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 92f409ca159949442870068a50257a2f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1763520682
 GameObject:
   m_ObjectHideFlags: 0
@@ -6530,7 +6550,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d3eb8578560f234dac32d7f32986ebe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charactersDisplay: []
+  charactersDisplay:
+  - {fileID: 1679271687}
+  - {fileID: 1421868518}
+  - {fileID: 1835365620}
   selectedCharacter: 0
   characterNameDisplay: {fileID: 1336561367}
 --- !u!1 &1785845701

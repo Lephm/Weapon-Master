@@ -23,7 +23,11 @@ public class Health : MonoBehaviourPunCallbacks
         if(currentHealth <= 0)
         {
             print("Die");
-            OnCharacterDieEvent.Invoke(this);
+            if(OnCharacterDieEvent != null)
+            {
+                OnCharacterDieEvent.Invoke(this);
+            }
+            
         }
 
         if(PhotonNetwork.IsMasterClient)
