@@ -24,6 +24,7 @@ public class LookAtCamera : MonoBehaviour
     {
         if (currentCamera == null)
         {
+            GetCamera();
             return;
         }
         transform.LookAt(transform.position + currentCamera.transform.rotation * Vector3.forward, currentCamera.transform.rotation * Vector3.up);

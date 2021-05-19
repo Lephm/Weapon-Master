@@ -6,33 +6,38 @@ public class Health : MonoBehaviourPunCallbacks
 {
     public delegate void OnCharacterDie(Health character);
     public static OnCharacterDie OnCharacterDieEvent;
+    Animator anim;
     [SerializeField] float maxHealth = 100.0f;
     float currentHealth;
-    bool isDead = false;
-    PhotonView view;
+    public PhotonView view;
+    
     private void Awake()
     {
         currentHealth = maxHealth;
         view = GetComponent<PhotonView>();
+        anim = GetComponent<Animator>();
     }
 
     public void TakeDamage(float damage)
-    {
-        currentHealth -= damage;
+    {   
+        if (PhotonNetwork.IsMasterClient)
+        {
+            currentHealth -= damage;
+            view.RPC("ResetToServerHealth", RpcTarget.AllBuffered, currentHealth);
+        }
+        anim.SetTrigger("takeDamage");
+        print("take Damage");
         print(currentHealth);
         if(currentHealth <= 0)
-        {
+        {   
             print("Die");
+            //TODO: Spawn Particle Effect
             if(OnCharacterDieEvent != null)
             {
                 OnCharacterDieEvent.Invoke(this);
             }
-            
-        }
-
-        if(PhotonNetwork.IsMasterClient)
-        {
-            view.RPC("ResetToServerHealth", RpcTarget.AllBuffered, currentHealth);
+            anim.SetBool("death", true);
+            Destroy(this.gameObject, 5.0f);
         }
     }
 
@@ -48,23 +53,10 @@ public class Health : MonoBehaviourPunCallbacks
 
     [PunRPC]
     public void ResetToServerHealth(float currentCharHealth)
-    {   
-        if(GetIsDead() == false)
-        {
-            currentHealth = currentCharHealth;
-        }
-
-        //make sure the character die on all client
-        else
-        {
-            TakeDamage(currentHealth);
-        }
-        
-    }
-
-    public bool GetIsDead()
     {
-        return isDead;
+        currentHealth = currentCharHealth;
     }
+
+
     
 }

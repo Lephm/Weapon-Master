@@ -14,7 +14,7 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks,IPunObservable
     Rigidbody2D rb;
     Animator anim;
     public TextMeshProUGUI nameDisplay;
-    PhotonView view;
+    public PhotonView view;
     #region movement
     [Header("Move Stats")]
     [SerializeField]
@@ -234,13 +234,11 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks,IPunObservable
         else
         {
             ResetAllTriggers();
-            anim.SetTrigger("takeDamage");
             Health health = GetComponent<Health>();
             if(health != null)
             {
                 health.TakeDamage(damage);
             }
-            print("take Damage");
         }    
     }
     private void OnDrawGizmos()
