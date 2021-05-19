@@ -338,7 +338,9 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks,IPunObservable
         foreach (var combo in comboDictionary.Keys)
         {
             if(combo(attackInputTypeSchedule))
-            {
+            {   
+                //Disable all other attacks
+                ResetAllTriggers();
                 comboDictionary[combo]();
                 attackInputTypeSchedule.Clear();
                 return;
