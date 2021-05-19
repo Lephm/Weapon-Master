@@ -10,7 +10,7 @@ public class Health : MonoBehaviourPunCallbacks
     [SerializeField] float maxHealth = 100.0f;
     float currentHealth;
     public PhotonView view;
-    
+    bool hasPlayedDeathAnimation = false;
     private void Awake()
     {
         currentHealth = maxHealth;
@@ -36,7 +36,14 @@ public class Health : MonoBehaviourPunCallbacks
             {
                 OnCharacterDieEvent.Invoke(this);
             }
-            anim.SetBool("death", true);
+            //hasDied is to check for animation that transits from any states
+            anim.SetBool("hasDied", true);
+            if(hasPlayedDeathAnimation == false)
+            {
+                hasPlayedDeathAnimation = true;
+                anim.SetTrigger("die");
+            }
+            
             Destroy(this.gameObject, 5.0f);
         }
     }

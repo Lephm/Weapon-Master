@@ -225,8 +225,7 @@ public class GameManager : MonoBehaviourPunCallbacks, IOnEventCallback
 
     public void RestartGame()
     {
-        string currentSceneName = SceneManager.GetActiveScene().name;
-        PhotonNetwork.LoadLevel(currentSceneName);
+        PhotonNetwork.LoadLevel("Room");
     }
 
     
