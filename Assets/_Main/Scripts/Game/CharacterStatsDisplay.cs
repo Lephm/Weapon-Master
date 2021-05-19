@@ -14,14 +14,14 @@ public class CharacterStatsDisplay : MonoBehaviour
     public Image ultimateMeterProgressBar;
 
 
-    public void Setup(CharacterData charData, CharacterControllerBase charController)
+    public void Setup(CharacterControllerBase charController)
     {
-        if (charData.characterAvatar != null)
+        if (charController.characterAvatar != null)
         {
-            characterAvatar.sprite = charData.characterAvatar;
+            characterAvatar.sprite = charController.characterAvatar;
         }
         character = charController;
-        Health characterHealth = character.GetComponent<Health>();
+        characterHealth = character.GetComponent<Health>();
     }
     private void Update()
     {
@@ -30,9 +30,11 @@ public class CharacterStatsDisplay : MonoBehaviour
 
     public void UpdateUI()
     {
-        if (character == null || characterHealth == null) return;
+        if (character == null || characterHealth == null)
+        {   
+            return;
+        }
         healthBar.fillAmount = characterHealth.GetCurrentHealth() / characterHealth.GetMaxHealth();
-
         float displayBlockProgressTime = character.GetTimeSinceLastBlock();
         if(displayBlockProgressTime > character.GetBlockCooldown())
         {

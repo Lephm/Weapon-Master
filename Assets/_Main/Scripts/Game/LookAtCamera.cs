@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LookAtCamera : MonoBehaviour
 {
-    Transform camera;
+    Transform currentCamera;
 
     private void Start()
     {
@@ -14,18 +14,18 @@ public class LookAtCamera : MonoBehaviour
 
     public void GetCamera()
     {
-        if (camera == null)
+        if (currentCamera == null)
         {
-            camera = Camera.current.transform;
+            currentCamera = Camera.current.transform;
         }
     }
     // Update is called once per frame
     void Update()
     {
-        if (camera == null)
+        if (currentCamera == null)
         {
             return;
         }
-        transform.LookAt(transform.position + camera.transform.rotation * Vector3.forward, camera.transform.rotation * Vector3.up);
+        transform.LookAt(transform.position + currentCamera.transform.rotation * Vector3.forward, currentCamera.transform.rotation * Vector3.up);
     }
 }

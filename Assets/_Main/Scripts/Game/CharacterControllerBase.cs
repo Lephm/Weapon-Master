@@ -7,13 +7,14 @@ using TMPro;
 
 
 
-public class CharacterControllerBase : MonoBehaviourPunCallbacks
+public class CharacterControllerBase : MonoBehaviourPunCallbacks,IPunObservable
 {
     public delegate bool ComboCondition(List<int> attackInputSchedule);
     public delegate void ComboAttack();
     Rigidbody2D rb;
     Animator anim;
     public TextMeshProUGUI nameDisplay;
+    PhotonView view;
     #region movement
     [Header("Move Stats")]
     [SerializeField]
@@ -92,9 +93,14 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks
         }
 
         nameDisplay = GetComponentInChildren<TextMeshProUGUI>();
-
+        view = GetComponent<PhotonView>();
         SetupComboDictionary();
 
+    }
+
+    public virtual void Start()
+    {
+        view.ObservedComponents.Add(this);
     }
     public virtual void Update()
     {
@@ -124,8 +130,8 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks
     }
     #endregion
 
-    //This is to identify the index of the class inorder to display on the UI
-    public int characterClassIndex = 0;
+    //for displaying ingame ui
+    public Sprite characterAvatar;
     void SetupPhysics()
     {
         characterCollider = GetComponent<CapsuleCollider2D>();
@@ -212,9 +218,14 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks
     {
         return currentUltimateMeter;
     }
+
+    public void AddUltimateMeter(float amount)
+    {
+        currentUltimateMeter += amount;
+    }
     public void ReceiveDamage(CharacterControllerBase source, float damage, bool unblockable)
     {
-        if (isBlocking && !unblockable)
+        if (isBlocking && unblockable == false)
         {
             isBlocking = false; // make sure the character is not blocking incase some bug happens
             OnSuccessfullyBlock(source,damage);
@@ -353,4 +364,16 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks
         return true;
     }
 
+    //To sync the block/ultimate meter
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+        if (stream.IsWriting)
+        {
+
+        }
+        else
+        {
+
+        }
+    }
 }

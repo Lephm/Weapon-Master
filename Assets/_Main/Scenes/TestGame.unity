@@ -808,19 +808,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameNetworkManager
       objectReference: {fileID: 0}
-    - target: {fileID: 4545860197203044807, guid: 63ca04180117282489999ee77d1ffb8d, type: 3}
+    - target: {fileID: 8806653461722373865, guid: 63ca04180117282489999ee77d1ffb8d, type: 3}
       propertyPath: spawnPoints.Array.data[0]
       value: 
       objectReference: {fileID: 1151039811}
-    - target: {fileID: 4545860197203044807, guid: 63ca04180117282489999ee77d1ffb8d, type: 3}
+    - target: {fileID: 8806653461722373865, guid: 63ca04180117282489999ee77d1ffb8d, type: 3}
       propertyPath: spawnPoints.Array.data[1]
       value: 
       objectReference: {fileID: 1084728604}
-    - target: {fileID: 4545860197203044807, guid: 63ca04180117282489999ee77d1ffb8d, type: 3}
+    - target: {fileID: 8806653461722373865, guid: 63ca04180117282489999ee77d1ffb8d, type: 3}
       propertyPath: spawnPoints.Array.data[2]
       value: 
       objectReference: {fileID: 1874260990}
-    - target: {fileID: 4545860197203044807, guid: 63ca04180117282489999ee77d1ffb8d, type: 3}
+    - target: {fileID: 8806653461722373865, guid: 63ca04180117282489999ee77d1ffb8d, type: 3}
       propertyPath: spawnPoints.Array.data[3]
       value: 
       objectReference: {fileID: 1186063854}

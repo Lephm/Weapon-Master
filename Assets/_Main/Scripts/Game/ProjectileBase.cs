@@ -8,9 +8,9 @@ public class ProjectileBase : MonoBehaviourPunCallbacks
 {
     [SerializeField] float speed = 3.0f;
     public bool moveRight = true;
-    private GameObject spawner;
+    private GameObject owner;
 
-    public void SetupProjectile(float spawnerYRotation, GameObject owner)
+    public void SetupProjectile(float spawnerYRotation, GameObject spawner)
     {
         if (spawnerYRotation == -180 || spawnerYRotation == 180)
         {
@@ -22,7 +22,7 @@ public class ProjectileBase : MonoBehaviourPunCallbacks
             moveRight = true;
         }
 
-        spawner = owner;
+        owner = spawner;
     }
     private void Awake()
     {
@@ -55,7 +55,7 @@ public class ProjectileBase : MonoBehaviourPunCallbacks
 
     public bool IsCollidedWithLocalPlayer(Collider2D collision)
     {
-        return spawner == collision.gameObject;
+        return owner == collision.gameObject;
     }
     public virtual void OnDestroy()
     {
