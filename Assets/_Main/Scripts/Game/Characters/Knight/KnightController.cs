@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class KnightController : CharacterControllerBase
 {
@@ -10,6 +11,7 @@ public class KnightController : CharacterControllerBase
     [SerializeField] GameObject iceProjectile;
     [SerializeField] GameObject fireProjectile;
     [SerializeField] GameObject earthProjectile;
+    int randIntForCombo1 = 1;
     public override void Awake()
     {
         base.Awake();
@@ -76,9 +78,21 @@ public class KnightController : CharacterControllerBase
     }
 
     public void Combo1Attack()
+    {  
+        if(PhotonNetwork.IsMasterClient)
+        {
+            int randomInt = Random.Range(1, 4);
+            view.RPC("Combo1AttackRPC", RpcTarget.AllBuffered, randomInt);
+        }
+    }
+
+    [PunRPC]
+    public void Combo1AttackRPC(int randint)
     {
+        randIntForCombo1 = randint;
         Debug.LogWarning("Excute Combo 1");
         anim.SetTrigger("combo1Anim");
+
     }
 
     public override void SetupComboDictionary()
@@ -92,8 +106,8 @@ public class KnightController : CharacterControllerBase
 
     public void OnCombo1AnimationPlayed()
     {
-        int randomInt = Random.Range(1, 4);
-        switch (randomInt)
+        
+        switch (randIntForCombo1)
         {   
 
             case 1:

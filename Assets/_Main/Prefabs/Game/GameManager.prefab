@@ -700,7 +700,6 @@ GameObject:
   - component: {fileID: 3994969287093980184}
   - component: {fileID: 2815025674116415967}
   - component: {fileID: 6830856784229165234}
-  - component: {fileID: 3078311955931873840}
   m_Layer: 0
   m_Name: main2DCineCamera
   m_TagString: Untagged
@@ -775,14 +774,6 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 0}
   m_ConfineScreenEdges: 1
   m_Damping: 0
---- !u!81 &3078311955931873840
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3129507148604689297}
-  m_Enabled: 1
 --- !u!1 &3828721215893731150
 GameObject:
   m_ObjectHideFlags: 0
