@@ -15,11 +15,11 @@ D:/UnityMAINPROJETSFOLDER/WeaponMaster
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62769
+63527
 Successfully changed project path to: D:/UnityMAINPROJETSFOLDER/WeaponMaster
 D:/UnityMAINPROJETSFOLDER/WeaponMaster
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.82 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 47.19 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,198 +35,71 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003620 seconds.
+Registered in 0.003759 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 54.75 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 46.71 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.410 seconds
+- Completed reload, in  2.205 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002292 seconds.
+Registered in 0.002023 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.67 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 59.04 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
+- Completed reload, in  1.048 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2251 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.1 MB.
-System memory in use after: 101.0 MB.
+Unloading 2255 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.3 MB.
+System memory in use after: 101.2 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2690.
-Total: 3.317800 ms (FindLiveObjects: 0.306100 ms CreateObjectMapping: 0.152900 ms MarkObjects: 2.651200 ms  DeleteObjects: 0.206100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/_Main/Scripts/Game/Characters/Knight/KnightController.cs
-  artifactKey: Guid(fcbaaf56a9e5bff4ca48000996d61dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/Scripts/Game/Characters/Knight/KnightController.cs using Guid(fcbaaf56a9e5bff4ca48000996d61dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50ea1404c9696f48d9419653cf9ce76') in 0.045264 seconds
-  Import took 0.049152 seconds .
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2694.
+Total: 3.576900 ms (FindLiveObjects: 0.268700 ms CreateObjectMapping: 0.108500 ms MarkObjects: 3.066900 ms  DeleteObjects: 0.131100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.097433 seconds.
-  path: Assets/_Main/Scripts/Game/Characters/Knight/KnightController.cs
-  artifactKey: Guid(fcbaaf56a9e5bff4ca48000996d61dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/Scripts/Game/Characters/Knight/KnightController.cs using Guid(fcbaaf56a9e5bff4ca48000996d61dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4942525c18fae6a594935d29ffb9023') in 0.002701 seconds
-  Import took 0.007832 seconds .
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(a2efcaddff68b884cb3d06c4da4adc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(a2efcaddff68b884cb3d06c4da4adc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c459be241a7097f2c3e7bdb7a3f32419') in 0.049687 seconds
+  Import took 0.053406 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.668183 seconds.
-  path: Assets/_Main/Scripts/Game/Characters/Knight/KnightController.cs
-  artifactKey: Guid(fcbaaf56a9e5bff4ca48000996d61dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/Scripts/Game/Characters/Knight/KnightController.cs using Guid(fcbaaf56a9e5bff4ca48000996d61dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed26d0a0bca283218ac8770b6b31d06a') in 0.002167 seconds
-  Import took 0.005596 seconds .
+  Time since last request: 21.139095 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FrozenEffect.prefab
+  artifactKey: Guid(38f8b18e59d1f414c8c4e0f961c9e524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FrozenEffect.prefab using Guid(38f8b18e59d1f414c8c4e0f961c9e524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01c7d302a14a5ea7f32f476f148329d') in 0.003938 seconds
+  Import took 0.008532 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.728478 seconds.
-  path: Assets/_Main/Scripts/Game/Characters/Knight/KnightController.cs
-  artifactKey: Guid(fcbaaf56a9e5bff4ca48000996d61dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/Scripts/Game/Characters/Knight/KnightController.cs using Guid(fcbaaf56a9e5bff4ca48000996d61dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf82122a7aedbf919848f65b4a116f3') in 0.001877 seconds
-  Import took 0.005492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.972654 seconds.
-  path: Assets/_Main/Scripts/Game/Characters/Knight/KnightController.cs
-  artifactKey: Guid(fcbaaf56a9e5bff4ca48000996d61dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/Scripts/Game/Characters/Knight/KnightController.cs using Guid(fcbaaf56a9e5bff4ca48000996d61dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3e314fbc3f12f10fa18865a8dbe237') in 0.002390 seconds
-  Import took 0.006175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.261004 seconds.
-  path: Assets/_Main/Scripts/Game/Characters/Knight/KnightController.cs
-  artifactKey: Guid(fcbaaf56a9e5bff4ca48000996d61dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/Scripts/Game/Characters/Knight/KnightController.cs using Guid(fcbaaf56a9e5bff4ca48000996d61dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1670ba1a8541793ea8eaac20073e7a') in 0.002745 seconds
-  Import took 0.006119 seconds .
+  Time since last request: 0.008947 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FrozenEffect.prefab
+  artifactKey: Guid(38f8b18e59d1f414c8c4e0f961c9e524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FrozenEffect.prefab using Guid(38f8b18e59d1f414c8c4e0f961c9e524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01c7d302a14a5ea7f32f476f148329d') in 0.004402 seconds
+  Import took 0.007895 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002472 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.011 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.5 MB.
-System memory in use after: 99.5 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2695.
-Total: 2.098900 ms (FindLiveObjects: 0.218600 ms CreateObjectMapping: 0.069900 ms MarkObjects: 1.709700 ms  DeleteObjects: 0.099500 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.7 MB.
-System memory in use after: 55.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2695.
-Total: 3.568500 ms (FindLiveObjects: 0.292200 ms CreateObjectMapping: 0.127700 ms MarkObjects: 3.006400 ms  DeleteObjects: 0.140800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006547 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 6.76 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.806 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 10.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.6 MB.
-System memory in use after: 99.6 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2700.
-Total: 10.101300 ms (FindLiveObjects: 1.851600 ms CreateObjectMapping: 0.469600 ms MarkObjects: 7.513300 ms  DeleteObjects: 0.260100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 150.589639 seconds.
-  path: Assets/_Main/Prefabs/Game/GameManager.prefab
-  artifactKey: Guid(63ca04180117282489999ee77d1ffb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/Prefabs/Game/GameManager.prefab using Guid(63ca04180117282489999ee77d1ffb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef46198d8b0b9955818c90c2e12b5c2') in 0.122533 seconds
-  Import took 0.126278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 332.709632 seconds.
-  path: Assets/_Main/Scenes/TestGame.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/Scenes/TestGame.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2b2bc743d6ccf229f09730c4830af3') in 0.004523 seconds
-  Import took 0.009484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002195 seconds.
-  path: Assets/_Main/Scenes/TestGame.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/Scenes/TestGame.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2b2bc743d6ccf229f09730c4830af3') in 0.003781 seconds
-  Import took 0.011055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.793935 seconds.
-  path: Assets/_Main/AnimatorController/Knight/Knight.controller
-  artifactKey: Guid(7b76bf0a1d4b6564e8e0c72e7a8ffcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/AnimatorController/Knight/Knight.controller using Guid(7b76bf0a1d4b6564e8e0c72e7a8ffcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1951b02a06d73e9972f9c294b872ab') in 0.009241 seconds
-  Import took 0.013717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001556 seconds.
-  path: Assets/_Main/AnimatorController/Knight/Knight.controller
-  artifactKey: Guid(7b76bf0a1d4b6564e8e0c72e7a8ffcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/AnimatorController/Knight/Knight.controller using Guid(7b76bf0a1d4b6564e8e0c72e7a8ffcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1951b02a06d73e9972f9c294b872ab') in 0.006571 seconds
-  Import took 0.010728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.502289 seconds.
-  path: Assets/_Main/Scripts/Game/Characters/Knight/FireSlash.cs
-  artifactKey: Guid(c6e5149e259d99345a771f4415049dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/Scripts/Game/Characters/Knight/FireSlash.cs using Guid(c6e5149e259d99345a771f4415049dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3606257290f6673895ca720c4cebc53c') in 0.003184 seconds
-  Import took 0.008344 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001976 seconds.
+Registered in 0.001994 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -234,150 +107,915 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.197 seconds
+- Completed reload, in  1.120 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2230 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.8 MB.
-System memory in use after: 99.8 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2706.
-Total: 2.961500 ms (FindLiveObjects: 0.463500 ms CreateObjectMapping: 0.220800 ms MarkObjects: 2.147800 ms  DeleteObjects: 0.127800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002025 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.234 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.8 MB.
-System memory in use after: 99.8 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2710.
-Total: 2.736300 ms (FindLiveObjects: 0.409000 ms CreateObjectMapping: 0.177500 ms MarkObjects: 2.017800 ms  DeleteObjects: 0.130400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.648422 seconds.
-  path: Assets/_Main/Scripts/Game/Characters/Knight/FireSlashProjectile.cs
-  artifactKey: Guid(2996c82b6fc2c6745bf6e5a813187917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/Scripts/Game/Characters/Knight/FireSlashProjectile.cs using Guid(2996c82b6fc2c6745bf6e5a813187917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9441128d59cef5f6cf2317b22c616c33') in 0.005281 seconds
-  Import took 0.009472 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002236 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.991 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2230 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2233 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 99.7 MB.
 System memory in use after: 99.7 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2716.
-Total: 2.577300 ms (FindLiveObjects: 0.279100 ms CreateObjectMapping: 0.105800 ms MarkObjects: 2.082100 ms  DeleteObjects: 0.109400 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2699.
+Total: 2.304600 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.071100 ms MarkObjects: 1.952400 ms  DeleteObjects: 0.100100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.239145 seconds.
-  path: Assets/_Main/Scripts/Game/Characters/Knight/IceFlashProjectile.cs
-  artifactKey: Guid(3bb55400c281d964e8d48fa228924411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/Scripts/Game/Characters/Knight/IceFlashProjectile.cs using Guid(3bb55400c281d964e8d48fa228924411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff100dd08abea3e9cca8194206eb54f4') in 0.005604 seconds
-  Import took 0.010324 seconds .
+  Time since last request: 141.320433 seconds.
+  path: Assets/2D_PFX/FX/bg.png
+  artifactKey: Guid(da01b33dbb2d5442091d4125524d6b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/FX/bg.png using Guid(da01b33dbb2d5442091d4125524d6b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36158b527ec4c9011db1604c8629160d') in 0.123882 seconds
+  Import took 0.128663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.282770 seconds.
+  path: Assets/2D_PFX/Prefabs/Electric_01.prefab
+  artifactKey: Guid(b37f4afd0bbe34e099d2597ad78d0d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Electric_01.prefab using Guid(b37f4afd0bbe34e099d2597ad78d0d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9798f911b07b35a8cd247c5cff7162c1') in 0.032304 seconds
+  Import took 0.036548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/2D_PFX/Prefabs/IceWater_06.prefab
+  artifactKey: Guid(652c8bf9a78e64e36aeb40f68885e957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/IceWater_06.prefab using Guid(652c8bf9a78e64e36aeb40f68885e957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5553dcebe7f88f2feb7aad6d79a24c3') in 0.011564 seconds
+  Import took 0.014764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/2D_PFX/Prefabs/IceWater_10.prefab
+  artifactKey: Guid(c556f2543a697400eba552d76d145225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/IceWater_10.prefab using Guid(c556f2543a697400eba552d76d145225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795aef50ba5326b6c5e2bae0d4ca5eb0') in 0.014920 seconds
+  Import took 0.018200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_05.prefab
+  artifactKey: Guid(a8eecf00682e24c838cd170dbdfd797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_05.prefab using Guid(a8eecf00682e24c838cd170dbdfd797a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc556775f391797254dddff5736bc923') in 0.010259 seconds
+  Import took 0.015632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/2D_PFX/Prefabs/Electric_06.prefab
+  artifactKey: Guid(aa2a3b2181e8d4cab882154bef5763ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Electric_06.prefab using Guid(aa2a3b2181e8d4cab882154bef5763ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719e6b7d6aa3dbc18053be4065151388') in 0.023234 seconds
+  Import took 0.027778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/2D_PFX/Prefabs/Electric_04.prefab
+  artifactKey: Guid(b9f66b91759bf4d12a29fe537b6e15d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Electric_04.prefab using Guid(b9f66b91759bf4d12a29fe537b6e15d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf03e8653800a25337a50fd751863e7') in 0.009766 seconds
+  Import took 0.013701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_14.prefab
+  artifactKey: Guid(166d2eb23c4cf4422a6e55a2c6b8d896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_14.prefab using Guid(166d2eb23c4cf4422a6e55a2c6b8d896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c4db0cc58987b794bc6635a8eb61a4') in 0.011498 seconds
+  Import took 0.015952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_07.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_07.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3600a214fee789fc55293bf8c6353044') in 0.011065 seconds
+  Import took 0.014911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/2D_PFX/Prefabs/IceWater_07.prefab
+  artifactKey: Guid(a7e227344c4664886895ef3a3c35f9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/IceWater_07.prefab using Guid(a7e227344c4664886895ef3a3c35f9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9af36b42ce1aa18047dbad1453b1b07') in 0.010713 seconds
+  Import took 0.015420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_13.prefab
+  artifactKey: Guid(1d9487b36e90749409fa45e0a19ae6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_13.prefab using Guid(1d9487b36e90749409fa45e0a19ae6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4de1fe8283d490d2e9352046b85f98') in 0.015164 seconds
+  Import took 0.019259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_06.prefab
+  artifactKey: Guid(6789a867acc7040fdb764cf10dbec422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_06.prefab using Guid(6789a867acc7040fdb764cf10dbec422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2a38d212842800471dd9ff1ac74e0d') in 0.010065 seconds
+  Import took 0.015213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_11.prefab
+  artifactKey: Guid(4d537678b61934513a768ae6afa64deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_11.prefab using Guid(4d537678b61934513a768ae6afa64deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b676d175d4e2c48e0fa28e35b05ed22') in 0.010291 seconds
+  Import took 0.014441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_02.prefab
+  artifactKey: Guid(7bd6396e4295448cc911c6f15bfb1828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_02.prefab using Guid(7bd6396e4295448cc911c6f15bfb1828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2c53ebf4c29469492b7cd3a0e74465') in 0.009342 seconds
+  Import took 0.013298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/2D_PFX/Prefabs/IceWater_01.prefab
+  artifactKey: Guid(25338832854da4f03afd68b17c57f09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/IceWater_01.prefab using Guid(25338832854da4f03afd68b17c57f09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09f614d3d449bd697adfd0bb0d1a861') in 0.010537 seconds
+  Import took 0.015729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000720 seconds.
+  path: Assets/2D_PFX/Prefabs/IceWater_11.prefab
+  artifactKey: Guid(17d501c5111dd4454ac8ba16db20893a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/IceWater_11.prefab using Guid(17d501c5111dd4454ac8ba16db20893a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e57c2faba0216aedbce79bc88300364') in 0.009022 seconds
+  Import took 0.014447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/2D_PFX/Prefabs/Electric_03.prefab
+  artifactKey: Guid(d03324a0371bc41779a76435ecdac009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Electric_03.prefab using Guid(d03324a0371bc41779a76435ecdac009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbcdd649c2d996150fb1ff994569b3c') in 0.009681 seconds
+  Import took 0.014640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/2D_PFX/Prefabs/IceWater_12.prefab
+  artifactKey: Guid(8be95519f12a34ac4bda14419d0974a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/IceWater_12.prefab using Guid(8be95519f12a34ac4bda14419d0974a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21fe7c63f46cf38dd2ec955b2692bbd') in 0.009574 seconds
+  Import took 0.013736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/2D_PFX/Prefabs/Electric_02.prefab
+  artifactKey: Guid(92d2a0449278d49af94a501d27844784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Electric_02.prefab using Guid(92d2a0449278d49af94a501d27844784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07cb515a05c0cb4e2db86f06428f1d5') in 0.010983 seconds
+  Import took 0.016184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/2D_PFX/Prefabs/IceWater_09.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/IceWater_09.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4afbef8c4a20725cf60e38213d84e1') in 0.007765 seconds
+  Import took 0.012091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_15.prefab
+  artifactKey: Guid(73485adb701d34769bbddfa9b32c7cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_15.prefab using Guid(73485adb701d34769bbddfa9b32c7cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba89aa9915b984f6064511117ab4cb4') in 0.009973 seconds
+  Import took 0.014165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/2D_PFX/Prefabs/Electric_08.prefab
+  artifactKey: Guid(bcb1403c4a7f6469e8b9ecbe1875c99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Electric_08.prefab using Guid(bcb1403c4a7f6469e8b9ecbe1875c99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77eb8c26337718e2186dd24e827f7b87') in 0.010126 seconds
+  Import took 0.014548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/2D_PFX/Prefabs/Electric_09.prefab
+  artifactKey: Guid(18be57d381124488db66a89e67b09353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Electric_09.prefab using Guid(18be57d381124488db66a89e67b09353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24a0f85da66da732ccf0797fa02623a') in 0.009203 seconds
+  Import took 0.013355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/2D_PFX/Prefabs/IceWater_04.prefab
+  artifactKey: Guid(4a7c709d5f7b84c20923eb302f51a5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/IceWater_04.prefab using Guid(4a7c709d5f7b84c20923eb302f51a5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e926d38abe7be82ff0f84fb2d1bf3175') in 0.009243 seconds
+  Import took 0.013966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/2D_PFX/Prefabs/Electric_07.prefab
+  artifactKey: Guid(059263fbdb7ea4ce7a21960a6219fbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Electric_07.prefab using Guid(059263fbdb7ea4ce7a21960a6219fbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780a48d861e8cb5a89982dbf6753312c') in 0.008893 seconds
+  Import took 0.012519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001075 seconds.
+  path: Assets/2D_PFX/Prefabs/IceWater_08.prefab
+  artifactKey: Guid(a6986d93027804ebbb95514ee6b1adf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/IceWater_08.prefab using Guid(a6986d93027804ebbb95514ee6b1adf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d96242cfa879da07746d84e7ff833e') in 0.012337 seconds
+  Import took 0.016612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_01.prefab
+  artifactKey: Guid(8dda3f11dd0184a149c247f4b94aaf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_01.prefab using Guid(8dda3f11dd0184a149c247f4b94aaf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7d0defb82e173ac25ba9155077ede4') in 0.010508 seconds
+  Import took 0.014319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_03.prefab
+  artifactKey: Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_03.prefab using Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6850f72de925cbe265f177be61b75d') in 0.011559 seconds
+  Import took 0.016739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_09.prefab
+  artifactKey: Guid(183e39234113e4da199d962754641cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_09.prefab using Guid(183e39234113e4da199d962754641cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2289f7a58639d21d62a8358b1654a5af') in 0.009028 seconds
+  Import took 0.013561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000677 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_04.prefab
+  artifactKey: Guid(a677770afb2d04956954e3b2476a7985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_04.prefab using Guid(a677770afb2d04956954e3b2476a7985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90522f9643085e088b6e21fc638b106e') in 0.011713 seconds
+  Import took 0.015474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_12.prefab
+  artifactKey: Guid(7d24e2d2e62bd4cf68c0f8fc049d6780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_12.prefab using Guid(7d24e2d2e62bd4cf68c0f8fc049d6780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558866ff7da305cab889555bbc06c7c9') in 0.010900 seconds
+  Import took 0.015099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/2D_PFX/Prefabs/IceWater_03.prefab
+  artifactKey: Guid(68d29a2f504634904802cb3caecfdaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/IceWater_03.prefab using Guid(68d29a2f504634904802cb3caecfdaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7319f3f63ec5acf589a9d9339d602b98') in 0.009802 seconds
+  Import took 0.015442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_08.prefab
+  artifactKey: Guid(e24928200df95445c8eaff3599526819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_08.prefab using Guid(e24928200df95445c8eaff3599526819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c9a0670017d8d79566684c2d23c3ce') in 0.007897 seconds
+  Import took 0.011525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/2D_PFX/Prefabs/Electric_05.prefab
+  artifactKey: Guid(b4c4c7e2202cf4258ab6008f8ded4b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Electric_05.prefab using Guid(b4c4c7e2202cf4258ab6008f8ded4b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1eebd31104b138f303e2e88184763d') in 0.010279 seconds
+  Import took 0.015189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_10.prefab
+  artifactKey: Guid(6a299e46c5cd14071a22b49795526b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_10.prefab using Guid(6a299e46c5cd14071a22b49795526b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b5bb2d4b8e20fa288e1ea4d940bc02') in 0.009037 seconds
+  Import took 0.012901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/2D_PFX/Prefabs/IceWater_05.prefab
+  artifactKey: Guid(06c353dc717994c1a9856e42866e43cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/IceWater_05.prefab using Guid(06c353dc717994c1a9856e42866e43cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a19540bf015710a0c40e829254a2e73') in 0.010497 seconds
+  Import took 0.015494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_10.prefab
+  artifactKey: Guid(6a299e46c5cd14071a22b49795526b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_10.prefab using Guid(6a299e46c5cd14071a22b49795526b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b5bb2d4b8e20fa288e1ea4d940bc02') in 0.008488 seconds
+  Import took 0.012328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/2D_PFX/Prefabs/IceWater_02.prefab
+  artifactKey: Guid(947f0ab9b1bb04c3ea6db879ecc3f006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/IceWater_02.prefab using Guid(947f0ab9b1bb04c3ea6db879ecc3f006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99aacce8bf9e7eb2b35a011c055e5d2') in 0.012606 seconds
+  Import took 0.016338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.821691 seconds.
+  path: Assets/2D_PFX/Prefabs/Fire_07.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/Prefabs/Fire_07.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826d6f3edea0185c6b3b029ed014a84c') in 0.012212 seconds
+  Import took 0.016926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.779449 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8d7ecb4bf0ddc45f6c70b83fe7b0cc') in 0.010040 seconds
+  Import took 0.014144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007119 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8d7ecb4bf0ddc45f6c70b83fe7b0cc') in 0.010122 seconds
+  Import took 0.013690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.052088 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9975271563706d5cd7172b0d56ac183') in 0.010842 seconds
+  Import took 0.014722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006716 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9975271563706d5cd7172b0d56ac183') in 0.009903 seconds
+  Import took 0.014400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.929579 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FrozenEffect.prefab
+  artifactKey: Guid(652c8bf9a78e64e36aeb40f68885e957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FrozenEffect.prefab using Guid(652c8bf9a78e64e36aeb40f68885e957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278f6537ed261d0102da55b3af1819df') in 0.011069 seconds
+  Import took 0.014926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008051 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FrozenEffect.prefab
+  artifactKey: Guid(652c8bf9a78e64e36aeb40f68885e957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FrozenEffect.prefab using Guid(652c8bf9a78e64e36aeb40f68885e957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278f6537ed261d0102da55b3af1819df') in 0.011180 seconds
+  Import took 0.014769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.108441 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf7a6464e602a89e4314797340d6eab') in 0.013627 seconds
+  Import took 0.017870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004668 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf7a6464e602a89e4314797340d6eab') in 0.014209 seconds
+  Import took 0.018104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.099645 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cb5e96ce76b1529886db6e5f51fc05') in 0.011731 seconds
+  Import took 0.015732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007121 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cb5e96ce76b1529886db6e5f51fc05') in 0.012191 seconds
+  Import took 0.015805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.427437 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceWater_06.prefab
+  artifactKey: Guid(652c8bf9a78e64e36aeb40f68885e957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceWater_06.prefab using Guid(652c8bf9a78e64e36aeb40f68885e957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389bd3ac59bd7149aaf6c40a59821b79') in 0.012425 seconds
+  Import took 0.016323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.406757 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/Resources/Knight.prefab
+  artifactKey: Guid(ae08baa3a0200254890682e712b0cb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/Resources/Knight.prefab using Guid(ae08baa3a0200254890682e712b0cb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b66a37b532ab2270d5396fcda985950') in 0.082843 seconds
+  Import took 0.087672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.570494 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/Fire_07.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/Fire_07.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaaabc88322a949aba8344c634d2908') in 0.023942 seconds
+  Import took 0.031040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.999573 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767140cf62e515e2bebd996382f11d2e') in 0.013624 seconds
+  Import took 0.017976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001052 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767140cf62e515e2bebd996382f11d2e') in 0.011480 seconds
+  Import took 0.014999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.457820 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf3afa1b6a7a2d32a19e6d12ea556b6') in 0.013156 seconds
+  Import took 0.017710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.994101 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378939c16be14001a93f9f5659396fda') in 0.012265 seconds
+  Import took 0.016784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.037934 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1d7c86768c57267b70a4cfeeca01be') in 0.014604 seconds
+  Import took 0.019175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.425726 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494df1d240af036cebea68a03ebda471') in 0.012711 seconds
+  Import took 0.019311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.795246 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df71e48901e7845a376197606c2c52e4') in 0.016722 seconds
+  Import took 0.020658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.397507 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b26ab6cff07523450c33f9338915d9e') in 0.017797 seconds
+  Import took 0.022826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.371130 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3933d91b6c68c6b85f58b63772e4028') in 0.017094 seconds
+  Import took 0.022607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.041760 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf739b041670d7586815effae2f23c80') in 0.014329 seconds
+  Import took 0.018264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.029368 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776bf390d00038ba126fcbba1deba54f') in 0.015745 seconds
+  Import took 0.022084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.704851 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44645230469003c2aa755f095ad213b8') in 0.015642 seconds
+  Import took 0.020497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.303260 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e31786ddf1db22a887c323fe2c4dc63') in 0.014323 seconds
+  Import took 0.021551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.063321 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0017f87c9492b8c7700716ad5367724') in 0.030516 seconds
+  Import took 0.037377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.536977 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f16e9fb7672659ad3889706565b191') in 0.010838 seconds
+  Import took 0.015759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.269203 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f7b785aae4c9b71e9a3df6c1b835bb') in 0.012964 seconds
+  Import took 0.017214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.808377 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e873ad0acca489d6d1c38148908adc3c') in 0.012353 seconds
+  Import took 0.016153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.756284 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e99cc16a77da40020ff58eab7fd6bea') in 0.015962 seconds
+  Import took 0.020973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.492012 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0053b972617456b0f3c17b302eaeb2') in 0.015584 seconds
+  Import took 0.022251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.925942 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba541d1579bfd59bf95fb730a463ea31') in 0.016265 seconds
+  Import took 0.022598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.256067 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482ce4e47f49d6f63bb69ee905d315aa') in 0.014475 seconds
+  Import took 0.019416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.622426 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49d9251765e5c84b5cbeb4724e564be') in 0.011627 seconds
+  Import took 0.016951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.232218 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520e9aeaa3d515a5a4ec736f5f8208ff') in 0.025559 seconds
+  Import took 0.033231 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002707 seconds.
+Registered in 0.002062 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.955 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2231 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.8 MB.
-System memory in use after: 99.9 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2722.
-Total: 2.443800 ms (FindLiveObjects: 0.232500 ms CreateObjectMapping: 0.091500 ms MarkObjects: 2.014800 ms  DeleteObjects: 0.104000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.815130 seconds.
-  path: Assets/_Main/Scripts/Game/Characters/Knight/EarthSlashProjectile.cs
-  artifactKey: Guid(c2e62335aaf27f745b72d4df75629575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/Scripts/Game/Characters/Knight/EarthSlashProjectile.cs using Guid(c2e62335aaf27f745b72d4df75629575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cafd3214f21dc567c83f79013e69bf') in 0.005001 seconds
-  Import took 0.008551 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001957 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.157 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2232 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.0 MB.
-System memory in use after: 100.0 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2728.
-Total: 2.585700 ms (FindLiveObjects: 0.421800 ms CreateObjectMapping: 0.168600 ms MarkObjects: 1.880700 ms  DeleteObjects: 0.113100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002266 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.129 seconds
+- Completed reload, in  0.963 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2232 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.0 MB.
-System memory in use after: 100.0 MB.
+Unloading 2233 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 103.8 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2733.
-Total: 2.706500 ms (FindLiveObjects: 0.347800 ms CreateObjectMapping: 0.117700 ms MarkObjects: 2.116200 ms  DeleteObjects: 0.123100 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2713.
+Total: 3.305600 ms (FindLiveObjects: 0.345500 ms CreateObjectMapping: 0.138200 ms MarkObjects: 2.535400 ms  DeleteObjects: 0.284900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 211.378819 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a1a5ec6c21224dcfa23f4117af6431') in 0.056456 seconds
+  Import took 0.060132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.418394 seconds.
+  path: Assets/_Main/Scripts/Game/Characters/Knight/BurnEffect.cs
+  artifactKey: Guid(eb77c8381a07ed74bb07aa8dc45ffe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Scripts/Game/Characters/Knight/BurnEffect.cs using Guid(eb77c8381a07ed74bb07aa8dc45ffe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab64dba109f86a33752f4b71ca6eeabb') in 0.006051 seconds
+  Import took 0.010620 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002786 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.114 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2720.
+Total: 2.164600 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.090700 ms MarkObjects: 1.763000 ms  DeleteObjects: 0.101900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002020 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.922 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 104.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2725.
+Total: 2.667700 ms (FindLiveObjects: 0.443300 ms CreateObjectMapping: 0.225100 ms MarkObjects: 1.895300 ms  DeleteObjects: 0.102200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.939409 seconds.
+  path: Assets/_Main/Scripts/Game/Characters/Knight/FireSlashProjectile.cs
+  artifactKey: Guid(2996c82b6fc2c6745bf6e5a813187917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Scripts/Game/Characters/Knight/FireSlashProjectile.cs using Guid(2996c82b6fc2c6745bf6e5a813187917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c0f4dcecc24772d29a8471e618cc6c') in 0.004635 seconds
+  Import took 0.008668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026229 seconds.
+  path: Assets/_Main/Scripts/Game/Characters/Knight/FireSlashProjectile.cs
+  artifactKey: Guid(2996c82b6fc2c6745bf6e5a813187917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Scripts/Game/Characters/Knight/FireSlashProjectile.cs using Guid(2996c82b6fc2c6745bf6e5a813187917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c0f4dcecc24772d29a8471e618cc6c') in 0.001939 seconds
+  Import took 0.005954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 463.251681 seconds.
+  path: Assets/_Main/Scripts/Game/Characters/Knight/BurnEffect.cs
+  artifactKey: Guid(eb77c8381a07ed74bb07aa8dc45ffe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Scripts/Game/Characters/Knight/BurnEffect.cs using Guid(eb77c8381a07ed74bb07aa8dc45ffe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343edd99a6ff89e016cc53b6aeec39db') in 0.003957 seconds
+  Import took 0.008974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.495148 seconds.
+  path: Assets/_Main/Scripts/Game/Characters/Knight/BurnEffect.cs
+  artifactKey: Guid(eb77c8381a07ed74bb07aa8dc45ffe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Scripts/Game/Characters/Knight/BurnEffect.cs using Guid(eb77c8381a07ed74bb07aa8dc45ffe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45534a4735a2444882068709cfb3d093') in 0.003901 seconds
+  Import took 0.009410 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002079 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 103.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2730.
+Total: 2.300000 ms (FindLiveObjects: 0.215900 ms CreateObjectMapping: 0.099500 ms MarkObjects: 1.866500 ms  DeleteObjects: 0.116800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.673168 seconds.
+  path: Assets/_Main/Scripts/Game/Characters/Knight/BurnEffect.cs
+  artifactKey: Guid(eb77c8381a07ed74bb07aa8dc45ffe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Scripts/Game/Characters/Knight/BurnEffect.cs using Guid(eb77c8381a07ed74bb07aa8dc45ffe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29fda16a682c8963b6f08c082c09095') in 0.004561 seconds
+  Import took 0.010271 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002008 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 104.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2735.
+Total: 2.520200 ms (FindLiveObjects: 0.220300 ms CreateObjectMapping: 0.092600 ms MarkObjects: 2.101600 ms  DeleteObjects: 0.104500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.240340 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab
+  artifactKey: Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab using Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef32dd9a54337eeeb8af2abd4fee6e2b') in 0.061705 seconds
+  Import took 0.066411 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002053 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.925 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 104.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2741.
+Total: 2.626700 ms (FindLiveObjects: 0.327400 ms CreateObjectMapping: 0.173300 ms MarkObjects: 2.014100 ms  DeleteObjects: 0.110700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.681163 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab
+  artifactKey: Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab using Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defabd9fa307d8bf012b9d6270c2f6e2') in 0.056080 seconds
+  Import took 0.060711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.228571 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab
+  artifactKey: Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab using Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178b7d939e3cb63a9321919cb29c591c') in 0.015050 seconds
+  Import took 0.021237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.995084 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab
+  artifactKey: Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab using Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79932926c1c484d59185033fc86ab3ec') in 0.013886 seconds
+  Import took 0.018063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.946316 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab
+  artifactKey: Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab using Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8c17565161f568dbc64b52f93fdd90') in 0.015093 seconds
+  Import took 0.019446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.509834 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7d4131562543eefc689c5daa7bce42') in 0.019865 seconds
+  Import took 0.025013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000955 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7d4131562543eefc689c5daa7bce42') in 0.014507 seconds
+  Import took 0.018753 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.6 MB.
+System memory in use after: 61.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2742.
+Total: 2.721900 ms (FindLiveObjects: 0.232100 ms CreateObjectMapping: 0.117800 ms MarkObjects: 2.250200 ms  DeleteObjects: 0.120700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003893 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.865 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.0 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2747.
+Total: 6.489300 ms (FindLiveObjects: 1.270900 ms CreateObjectMapping: 0.650300 ms MarkObjects: 4.377500 ms  DeleteObjects: 0.189200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002370 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.0 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2752.
+Total: 2.410300 ms (FindLiveObjects: 0.229200 ms CreateObjectMapping: 0.138500 ms MarkObjects: 1.929700 ms  DeleteObjects: 0.111400 ms)
 
 ========================================================================
 Received Prepare
@@ -387,40 +1025,512 @@ Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.934 seconds
+- Completed reload, in  1.086 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2232 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.0 MB.
-System memory in use after: 100.1 MB.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.9 MB.
+System memory in use after: 104.0 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2738.
-Total: 2.431900 ms (FindLiveObjects: 0.258300 ms CreateObjectMapping: 0.118000 ms MarkObjects: 1.944100 ms  DeleteObjects: 0.110300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 369.136137 seconds.
-  path: Assets/_Main/Scripts/Game/Characters/Knight/FireSlashProjectile.cs
-  artifactKey: Guid(2996c82b6fc2c6745bf6e5a813187917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/Scripts/Game/Characters/Knight/FireSlashProjectile.cs using Guid(2996c82b6fc2c6745bf6e5a813187917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8babc9a8f1c2807888a9dede4c1b3f72') in 0.004541 seconds
-  Import took 0.008046 seconds .
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2757.
+Total: 3.921600 ms (FindLiveObjects: 0.490600 ms CreateObjectMapping: 0.205200 ms MarkObjects: 3.082500 ms  DeleteObjects: 0.141800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.638744 seconds.
-  path: Assets/_Main/Scripts/Game/Characters/Knight/FrozenEffect.cs
-  artifactKey: Guid(efe12621376646046ad965ef031c50a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/Scripts/Game/Characters/Knight/FrozenEffect.cs using Guid(efe12621376646046ad965ef031c50a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf466fa2aac143ab93a674238ea3ccb') in 0.002842 seconds
-  Import took 0.009383 seconds .
+  Time since last request: 221.880877 seconds.
+  path: Assets/_Main/Prefabs/Game/Projectile.prefab
+  artifactKey: Guid(5fd1cf082a655ed44a1f706660903b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Projectile.prefab using Guid(5fd1cf082a655ed44a1f706660903b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b35bd40b0c10e47f76ff296bfed1d90') in 0.049316 seconds
+  Import took 0.052987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388181 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced395e5d7034585cbc0c6874132e465') in 0.023796 seconds
+  Import took 0.028286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/KnightCombo1Projectile.prefab
+  artifactKey: Guid(eb58f4cffbc20e1498d58afa12ea19a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/KnightCombo1Projectile.prefab using Guid(eb58f4cffbc20e1498d58afa12ea19a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6505782bba0e7132a054c93ad73646') in 0.008772 seconds
+  Import took 0.012854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3525c655fdc301df414a01b2f29bdaff') in 0.018029 seconds
+  Import took 0.022128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.722261 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401372ef86b0a844db0c3edc491fe1c8') in 0.012107 seconds
+  Import took 0.015952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.761895 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a8bf6af6be8872443900081e427767') in 0.013891 seconds
+  Import took 0.018521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.614044 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed70647189253015bce01ba495c17444') in 0.013475 seconds
+  Import took 0.017540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.605654 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa74a6534d45b3556163b2e09a3bdcd') in 0.010454 seconds
+  Import took 0.014235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.356755 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca5b119f5c39a6c0e3cf87a9023ba39') in 0.014193 seconds
+  Import took 0.018093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.837180 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527600e8635e67f76d8031b00029e5f4') in 0.012516 seconds
+  Import took 0.017668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.708292 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c4c4a0334aa95503e119c134dd4f50') in 0.015167 seconds
+  Import took 0.019918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.664046 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0179c9de18cb886da257f1d350845ffa') in 0.016995 seconds
+  Import took 0.021104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.669178 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57cde1f7ce07c7c5a1cbdc66cc4d3b3') in 0.015327 seconds
+  Import took 0.020207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.746158 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455f19e1435e1412310e9bda92ad543b') in 0.013988 seconds
+  Import took 0.018278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.373805 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1abbbbe05230823344e4b7dc37c7c34') in 0.013235 seconds
+  Import took 0.018302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005641 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1abbbbe05230823344e4b7dc37c7c34') in 0.013024 seconds
+  Import took 0.017055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7d089dc71bcb969551a9d23c25c7e7') in 0.009480 seconds
+  Import took 0.013066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020670 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7d089dc71bcb969551a9d23c25c7e7') in 0.010077 seconds
+  Import took 0.014492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.079183 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15c18622e5aeaaa24ee9ec0a20b0f87') in 0.016147 seconds
+  Import took 0.020464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeadd3116679353656360173b10bfdc3') in 0.011796 seconds
+  Import took 0.015631 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.8 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2758.
+Total: 3.125000 ms (FindLiveObjects: 0.258800 ms CreateObjectMapping: 0.094600 ms MarkObjects: 2.660300 ms  DeleteObjects: 0.109900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003399 seconds.
+Registered in 0.003138 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.624 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.0 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2763.
+Total: 6.013100 ms (FindLiveObjects: 0.366400 ms CreateObjectMapping: 0.149700 ms MarkObjects: 4.669000 ms  DeleteObjects: 0.819400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002280 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.641 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.0 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2768.
+Total: 4.177200 ms (FindLiveObjects: 0.635300 ms CreateObjectMapping: 0.499600 ms MarkObjects: 2.827400 ms  DeleteObjects: 0.212800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002044 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2773.
+Total: 2.806900 ms (FindLiveObjects: 0.315000 ms CreateObjectMapping: 0.141900 ms MarkObjects: 2.221200 ms  DeleteObjects: 0.127600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 310.711498 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53b5c227fc69350f19afb9ccebfdbdb') in 0.056025 seconds
+  Import took 0.059829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/KnightCombo1Projectile.prefab
+  artifactKey: Guid(eb58f4cffbc20e1498d58afa12ea19a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/KnightCombo1Projectile.prefab using Guid(eb58f4cffbc20e1498d58afa12ea19a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3df4798c6022147f1dc5ce71a6a722e') in 0.009232 seconds
+  Import took 0.013479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9e0eaa956ec0be8ea5ec9595b5e846') in 0.015678 seconds
+  Import took 0.019765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.782578 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6597b47ce92e4ff040e803a1107e4ab') in 0.015246 seconds
+  Import took 0.020527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.907427 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8943ed2b941473df491ca8f1c3433888') in 0.016585 seconds
+  Import took 0.023496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.786876 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6911cbaaf57e2620c3b82f9b98f0fac6') in 0.018193 seconds
+  Import took 0.024025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.549496 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc644180df35677ecdca17b091d8cab') in 0.016775 seconds
+  Import took 0.020849 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.2 MB.
+System memory in use after: 62.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2774.
+Total: 12.857200 ms (FindLiveObjects: 2.859200 ms CreateObjectMapping: 2.590900 ms MarkObjects: 7.248300 ms  DeleteObjects: 0.157000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003278 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.603 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2779.
+Total: 6.929600 ms (FindLiveObjects: 1.033600 ms CreateObjectMapping: 1.196400 ms MarkObjects: 4.568500 ms  DeleteObjects: 0.129900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001983 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.0 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2784.
+Total: 2.397200 ms (FindLiveObjects: 0.235300 ms CreateObjectMapping: 0.092700 ms MarkObjects: 1.966800 ms  DeleteObjects: 0.101600 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.1 MB.
+System memory in use after: 60.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2784.
+Total: 16.277500 ms (FindLiveObjects: 6.515900 ms CreateObjectMapping: 0.924300 ms MarkObjects: 8.584100 ms  DeleteObjects: 0.249200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005057 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.272 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2789.
+Total: 14.584900 ms (FindLiveObjects: 1.303200 ms CreateObjectMapping: 2.573500 ms MarkObjects: 10.366300 ms  DeleteObjects: 0.333900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 276.120979 seconds.
+  path: Assets/_Main/Prefabs/Game/Projectile.prefab
+  artifactKey: Guid(5fd1cf082a655ed44a1f706660903b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Projectile.prefab using Guid(5fd1cf082a655ed44a1f706660903b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd624ea277d709a207c9c7be381222cd7') in 0.050612 seconds
+  Import took 0.054280 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002996 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2795.
+Total: 2.304200 ms (FindLiveObjects: 0.275500 ms CreateObjectMapping: 0.100300 ms MarkObjects: 1.826900 ms  DeleteObjects: 0.100800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001997 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2800.
+Total: 3.141300 ms (FindLiveObjects: 0.629300 ms CreateObjectMapping: 0.330200 ms MarkObjects: 2.063300 ms  DeleteObjects: 0.116600 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.2 MB.
+System memory in use after: 60.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2800.
+Total: 5.488800 ms (FindLiveObjects: 0.296700 ms CreateObjectMapping: 0.127700 ms MarkObjects: 4.928800 ms  DeleteObjects: 0.133800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.410 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2805.
+Total: 5.857400 ms (FindLiveObjects: 0.803300 ms CreateObjectMapping: 0.830400 ms MarkObjects: 3.991400 ms  DeleteObjects: 0.224900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002015 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.0 MB.
+System memory in use after: 104.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2810.
+Total: 2.343200 ms (FindLiveObjects: 0.249700 ms CreateObjectMapping: 0.075500 ms MarkObjects: 1.907200 ms  DeleteObjects: 0.109600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002075 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -428,23 +1538,1022 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.940 seconds
+- Completed reload, in  0.959 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2233 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.9 MB.
-System memory in use after: 100.0 MB.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.2 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2744.
-Total: 4.873300 ms (FindLiveObjects: 0.457400 ms CreateObjectMapping: 0.220400 ms MarkObjects: 4.071600 ms  DeleteObjects: 0.122400 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2815.
+Total: 2.760900 ms (FindLiveObjects: 0.369000 ms CreateObjectMapping: 0.245400 ms MarkObjects: 2.029600 ms  DeleteObjects: 0.114800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 226.842575 seconds.
-  path: Assets/_Main/Scripts/Game/Characters/Knight/FrozenEffect.cs
-  artifactKey: Guid(efe12621376646046ad965ef031c50a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Main/Scripts/Game/Characters/Knight/FrozenEffect.cs using Guid(efe12621376646046ad965ef031c50a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20f51a7a9020e6c53c3b18f30aa4f45') in 0.010396 seconds
-  Import took 0.017805 seconds .
+  Time since last request: 591.130027 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3284bbf111a23a809320cd034c86323') in 0.064075 seconds
+  Import took 0.068279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/KnightCombo1Projectile.prefab
+  artifactKey: Guid(eb58f4cffbc20e1498d58afa12ea19a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/KnightCombo1Projectile.prefab using Guid(eb58f4cffbc20e1498d58afa12ea19a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da487c31c038f92c2ddf28991bda55bf') in 0.008775 seconds
+  Import took 0.011949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab
+  artifactKey: Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceSlashProjectile.prefab using Guid(6ed08775f620942aa808d04d4bf4dcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baba26d95f7eba49de091bf426438368') in 0.011723 seconds
+  Import took 0.017767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.455212 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab
+  artifactKey: Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab using Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f092d16f2162df2a199b5a873a5d621f') in 0.014377 seconds
+  Import took 0.020427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005449 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab
+  artifactKey: Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab using Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f092d16f2162df2a199b5a873a5d621f') in 0.012676 seconds
+  Import took 0.016458 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.4 MB.
+System memory in use after: 62.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2816.
+Total: 9.551600 ms (FindLiveObjects: 0.666300 ms CreateObjectMapping: 0.453500 ms MarkObjects: 7.888300 ms  DeleteObjects: 0.539400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005455 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.794 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2821.
+Total: 7.528300 ms (FindLiveObjects: 1.638300 ms CreateObjectMapping: 1.640300 ms MarkObjects: 4.108600 ms  DeleteObjects: 0.136100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002172 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.000 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2826.
+Total: 2.315300 ms (FindLiveObjects: 0.267900 ms CreateObjectMapping: 0.110800 ms MarkObjects: 1.821000 ms  DeleteObjects: 0.114500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.2 MB.
+System memory in use after: 60.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2826.
+Total: 2.467400 ms (FindLiveObjects: 0.292100 ms CreateObjectMapping: 0.117200 ms MarkObjects: 1.945900 ms  DeleteObjects: 0.110700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.601 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2831.
+Total: 7.413000 ms (FindLiveObjects: 0.856200 ms CreateObjectMapping: 0.868500 ms MarkObjects: 5.230400 ms  DeleteObjects: 0.452400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.538865 seconds.
+  path: Assets/_Main/Prefabs/Game/Projectile.prefab
+  artifactKey: Guid(5fd1cf082a655ed44a1f706660903b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Projectile.prefab using Guid(5fd1cf082a655ed44a1f706660903b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1cb14783db4c71a433cc21ecb9168c') in 0.049478 seconds
+  Import took 0.053299 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002537 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2837.
+Total: 4.967200 ms (FindLiveObjects: 0.915200 ms CreateObjectMapping: 0.327100 ms MarkObjects: 3.607800 ms  DeleteObjects: 0.115900 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.2 MB.
+System memory in use after: 60.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2837.
+Total: 3.428000 ms (FindLiveObjects: 0.284700 ms CreateObjectMapping: 0.132000 ms MarkObjects: 2.865800 ms  DeleteObjects: 0.144400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004182 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.133 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2842.
+Total: 7.676200 ms (FindLiveObjects: 0.921400 ms CreateObjectMapping: 0.290000 ms MarkObjects: 6.237100 ms  DeleteObjects: 0.224100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 182.887409 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/Resources/Knight.prefab
+  artifactKey: Guid(ae08baa3a0200254890682e712b0cb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/Resources/Knight.prefab using Guid(ae08baa3a0200254890682e712b0cb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc60e75931d9b230aee24ef155230fa') in 0.129015 seconds
+  Import took 0.133648 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.8 MB.
+System memory in use after: 61.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2843.
+Total: 4.687900 ms (FindLiveObjects: 0.382900 ms CreateObjectMapping: 0.142000 ms MarkObjects: 4.004900 ms  DeleteObjects: 0.155600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012123 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.267 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2848.
+Total: 10.515500 ms (FindLiveObjects: 2.204700 ms CreateObjectMapping: 1.138900 ms MarkObjects: 6.961000 ms  DeleteObjects: 0.203500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002848 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.931 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2853.
+Total: 2.444200 ms (FindLiveObjects: 0.361800 ms CreateObjectMapping: 0.099000 ms MarkObjects: 1.830800 ms  DeleteObjects: 0.151700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.3 MB.
+System memory in use after: 60.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2853.
+Total: 3.338400 ms (FindLiveObjects: 0.722000 ms CreateObjectMapping: 0.207500 ms MarkObjects: 2.208100 ms  DeleteObjects: 0.198500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003996 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.389 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2858.
+Total: 6.999000 ms (FindLiveObjects: 0.359400 ms CreateObjectMapping: 0.213300 ms MarkObjects: 6.207700 ms  DeleteObjects: 0.217100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 303.343221 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfe3791eefe683f141133088242b325') in 0.060289 seconds
+  Import took 0.066159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.594592 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d64af020c2d56e3fbfec5612927c7e') in 0.015874 seconds
+  Import took 0.021870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.136084 seconds.
+  path: Assets/2D_PFX/FX/Water&Ice/06/06.controller
+  artifactKey: Guid(47f7434ceb4074b95ab2dfb2c3aa0197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/FX/Water&Ice/06/06.controller using Guid(47f7434ceb4074b95ab2dfb2c3aa0197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df74210144ef96524e8c469c01aef2a3') in 0.005400 seconds
+  Import took 0.009047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.682294 seconds.
+  path: Assets/2D_PFX/FX/Water&Ice/06/06_ice.anim
+  artifactKey: Guid(f66d05024b0c5485aae2883990640f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/FX/Water&Ice/06/06_ice.anim using Guid(f66d05024b0c5485aae2883990640f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc77befe666e92ce1528f149684a378') in 0.004982 seconds
+  Import took 0.009095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002401 seconds.
+  path: Assets/2D_PFX/FX/Water&Ice/06/06_ice.anim
+  artifactKey: Guid(f66d05024b0c5485aae2883990640f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/FX/Water&Ice/06/06_ice.anim using Guid(f66d05024b0c5485aae2883990640f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc77befe666e92ce1528f149684a378') in 0.002374 seconds
+  Import took 0.005781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.166742 seconds.
+  path: Assets/2D_PFX/FX/Water&Ice/06/06_ice.anim
+  artifactKey: Guid(f66d05024b0c5485aae2883990640f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_PFX/FX/Water&Ice/06/06_ice.anim using Guid(f66d05024b0c5485aae2883990640f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13c326d4be53641f7a577e4811de9b0') in 0.002900 seconds
+  Import took 0.007777 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002094 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.930 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.1 MB.
+System memory in use after: 104.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2864.
+Total: 2.468500 ms (FindLiveObjects: 0.314000 ms CreateObjectMapping: 0.128800 ms MarkObjects: 1.917900 ms  DeleteObjects: 0.106500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.2 MB.
+System memory in use after: 60.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2864.
+Total: 2.460700 ms (FindLiveObjects: 0.210000 ms CreateObjectMapping: 0.079600 ms MarkObjects: 2.054500 ms  DeleteObjects: 0.115100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003597 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 6.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.889 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2869.
+Total: 7.819200 ms (FindLiveObjects: 2.453500 ms CreateObjectMapping: 0.761000 ms MarkObjects: 4.427900 ms  DeleteObjects: 0.168900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002704 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.867 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2874.
+Total: 2.362200 ms (FindLiveObjects: 0.490000 ms CreateObjectMapping: 0.117800 ms MarkObjects: 1.652700 ms  DeleteObjects: 0.100600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 233.450280 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742fd78580b53be548187a3765c77a88') in 0.078004 seconds
+  Import took 0.084131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.452342 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f9271a9257f2fbb060ee9c31a11d44') in 0.016244 seconds
+  Import took 0.021606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.699353 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17711183886647a449390dcfc860b5e7') in 0.018199 seconds
+  Import took 0.023259 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002005 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2880.
+Total: 2.413000 ms (FindLiveObjects: 0.243800 ms CreateObjectMapping: 0.111500 ms MarkObjects: 1.947000 ms  DeleteObjects: 0.109600 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.4 MB.
+System memory in use after: 60.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2880.
+Total: 3.108000 ms (FindLiveObjects: 0.371300 ms CreateObjectMapping: 0.145200 ms MarkObjects: 2.383600 ms  DeleteObjects: 0.203800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002131 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.486 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2885.
+Total: 10.794900 ms (FindLiveObjects: 2.027300 ms CreateObjectMapping: 2.199200 ms MarkObjects: 5.824700 ms  DeleteObjects: 0.739400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2890.
+Total: 2.555700 ms (FindLiveObjects: 0.247600 ms CreateObjectMapping: 0.096800 ms MarkObjects: 2.099100 ms  DeleteObjects: 0.111400 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.3 MB.
+System memory in use after: 60.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2890.
+Total: 2.534500 ms (FindLiveObjects: 0.334900 ms CreateObjectMapping: 0.148100 ms MarkObjects: 1.931500 ms  DeleteObjects: 0.118200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015042 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 32.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.473 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2895.
+Total: 9.332700 ms (FindLiveObjects: 1.573300 ms CreateObjectMapping: 0.519800 ms MarkObjects: 7.034200 ms  DeleteObjects: 0.202000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002023 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.915 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2900.
+Total: 3.257100 ms (FindLiveObjects: 0.454100 ms CreateObjectMapping: 0.337200 ms MarkObjects: 2.284900 ms  DeleteObjects: 0.179500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002719 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.877 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2905.
+Total: 2.386400 ms (FindLiveObjects: 0.285400 ms CreateObjectMapping: 0.125000 ms MarkObjects: 1.862600 ms  DeleteObjects: 0.112300 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.4 MB.
+System memory in use after: 60.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2905.
+Total: 2.538300 ms (FindLiveObjects: 0.270600 ms CreateObjectMapping: 0.118100 ms MarkObjects: 2.036400 ms  DeleteObjects: 0.112000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002288 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.742 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2910.
+Total: 8.273200 ms (FindLiveObjects: 1.760300 ms CreateObjectMapping: 0.530200 ms MarkObjects: 5.271900 ms  DeleteObjects: 0.707000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002064 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 104.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2915.
+Total: 2.742300 ms (FindLiveObjects: 0.261800 ms CreateObjectMapping: 0.126100 ms MarkObjects: 2.234400 ms  DeleteObjects: 0.118700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.3 MB.
+System memory in use after: 60.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2915.
+Total: 2.932800 ms (FindLiveObjects: 0.668800 ms CreateObjectMapping: 0.169000 ms MarkObjects: 1.984800 ms  DeleteObjects: 0.108800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004127 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.145 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2920.
+Total: 32.947100 ms (FindLiveObjects: 4.351600 ms CreateObjectMapping: 7.077400 ms MarkObjects: 20.381900 ms  DeleteObjects: 1.123900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002055 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2925.
+Total: 3.915700 ms (FindLiveObjects: 0.404700 ms CreateObjectMapping: 0.242900 ms MarkObjects: 3.105100 ms  DeleteObjects: 0.161000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 963.622601 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceWater_06.prefab
+  artifactKey: Guid(652c8bf9a78e64e36aeb40f68885e957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceWater_06.prefab using Guid(652c8bf9a78e64e36aeb40f68885e957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b73a9efefd66fdbfcacf558cdbfcd01') in 0.059890 seconds
+  Import took 0.064448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.422726 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/IceWater_06.prefab
+  artifactKey: Guid(652c8bf9a78e64e36aeb40f68885e957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/IceWater_06.prefab using Guid(652c8bf9a78e64e36aeb40f68885e957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778950813205a16ff1330372ba980145') in 0.012505 seconds
+  Import took 0.017294 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2926.
+Total: 6.075100 ms (FindLiveObjects: 0.483400 ms CreateObjectMapping: 0.211600 ms MarkObjects: 5.199500 ms  DeleteObjects: 0.178600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004431 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.423 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.4 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2931.
+Total: 7.500200 ms (FindLiveObjects: 1.085500 ms CreateObjectMapping: 0.434300 ms MarkObjects: 5.745300 ms  DeleteObjects: 0.229700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.937 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.4 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2936.
+Total: 3.120200 ms (FindLiveObjects: 0.385400 ms CreateObjectMapping: 0.157900 ms MarkObjects: 2.435100 ms  DeleteObjects: 0.140900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.370257 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d472aef26ee9cb2528a70d01dfd23e9') in 0.060242 seconds
+  Import took 0.064943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.414351 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5ddb56135a6999f13aea08eda4ffcf') in 0.015004 seconds
+  Import took 0.020542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.070043 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1e583b0d45e0d45f5946bf9112c989') in 0.016913 seconds
+  Import took 0.022102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.775811 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa6691e880aa82971939551cb9dbe98') in 0.018506 seconds
+  Import took 0.022335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.056684 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c7585fe40658c1d43ff1f8ce56ee7d') in 0.015921 seconds
+  Import took 0.020333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.088742 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980f835f35f509715c24c0c9d7648826') in 0.015753 seconds
+  Import took 0.020031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.680404 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c3ce3ba7362ed753e1126cd01a7b76') in 0.014968 seconds
+  Import took 0.021427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.745693 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1184a11ec02635626c70501a993ae213') in 0.015479 seconds
+  Import took 0.020693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.626452 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6f184fa25d0bd29ab6e6dc1340c732') in 0.018883 seconds
+  Import took 0.024750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.816303 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5905a49eaaf3488b4627a8fcce7a701') in 0.022768 seconds
+  Import took 0.027371 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.6 MB.
+System memory in use after: 63.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2937.
+Total: 7.346700 ms (FindLiveObjects: 0.936000 ms CreateObjectMapping: 0.227200 ms MarkObjects: 5.942600 ms  DeleteObjects: 0.234800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.052 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 104.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2942.
+Total: 6.132700 ms (FindLiveObjects: 1.738800 ms CreateObjectMapping: 1.404200 ms MarkObjects: 2.804500 ms  DeleteObjects: 0.181300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002020 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.108 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.4 MB.
+System memory in use after: 104.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2947.
+Total: 4.119800 ms (FindLiveObjects: 1.222500 ms CreateObjectMapping: 0.357700 ms MarkObjects: 2.420600 ms  DeleteObjects: 0.114800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001980 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.4 MB.
+System memory in use after: 104.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2952.
+Total: 2.398000 ms (FindLiveObjects: 0.337300 ms CreateObjectMapping: 0.187300 ms MarkObjects: 1.764400 ms  DeleteObjects: 0.108000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.780764 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab
+  artifactKey: Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab using Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2aec94870d7d48a540e8e05899600e') in 0.073371 seconds
+  Import took 0.079963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.361456 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab
+  artifactKey: Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/ExplosionEffect.prefab using Guid(db53c7b8bdbbb4a8f9b6345e1b2b780e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80597cd62e802df0494e1f83cf052d7') in 0.017575 seconds
+  Import took 0.024124 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.8 MB.
+System memory in use after: 61.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2953.
+Total: 3.230700 ms (FindLiveObjects: 0.528200 ms CreateObjectMapping: 0.081400 ms MarkObjects: 2.465800 ms  DeleteObjects: 0.154200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002619 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.005 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.4 MB.
+System memory in use after: 104.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2958.
+Total: 4.170900 ms (FindLiveObjects: 0.761700 ms CreateObjectMapping: 0.228700 ms MarkObjects: 2.865600 ms  DeleteObjects: 0.309800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002035 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.087 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2234 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.4 MB.
+System memory in use after: 104.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2963.
+Total: 11.646500 ms (FindLiveObjects: 1.130600 ms CreateObjectMapping: 0.476400 ms MarkObjects: 9.830500 ms  DeleteObjects: 0.205700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.489532 seconds.
+  path: Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab
+  artifactKey: Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Main/Prefabs/Game/Knight/FireProjectile.prefab using Guid(8d7be18d33a6940678badbea3e14a8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd2ea6b9e12b2913079148766fd7373') in 0.115446 seconds
+  Import took 0.123548 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -119,7 +119,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   moveRight: 1
+  owner: {fileID: 0}
   destroyEffect: {fileID: 0}
+  lifeTime: 10
+  projSprite: {fileID: 2772892473721895589}
   frozenEffect: {fileID: 3822345907140699483, guid: 652c8bf9a78e64e36aeb40f68885e957, type: 3}
 --- !u!58 &7181440505339060982
 CircleCollider2D:

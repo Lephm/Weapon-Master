@@ -11,7 +11,7 @@ public class ProjectileBase : MonoBehaviourPunCallbacks
     public GameObject owner;
     public GameObject destroyEffect;
     public float lifeTime = 10.0f;
-
+    public SpriteRenderer projSprite;
     public virtual void OnEnable()
     {
         Destroy(this.gameObject,lifeTime);
@@ -29,6 +29,13 @@ public class ProjectileBase : MonoBehaviourPunCallbacks
         }
 
         owner = spawner;
+
+        if (projSprite != null)
+        {
+            projSprite.flipX = !moveRight;
+        }
+
+        
     }
 
     private void Update()
