@@ -7,7 +7,9 @@ public class KnightController : CharacterControllerBase
     [Header("Knight Combat Stats")]
     [SerializeField]Transform attackPos;
     [SerializeField] float attackRadius;
-    [SerializeField] GameObject combo1Projectile;
+    [SerializeField] GameObject iceProjectile;
+    [SerializeField] GameObject fireProjectile;
+    [SerializeField] GameObject earthProjectile;
     public override void Awake()
     {
         base.Awake();
@@ -76,15 +78,39 @@ public class KnightController : CharacterControllerBase
     public void Combo1Attack()
     {
         Debug.LogWarning("Excute Combo 1");
-        SpawnProjectile(combo1Projectile);
+        anim.SetTrigger("combo1Anim");
     }
 
     public override void SetupComboDictionary()
     {
         base.SetupComboDictionary();
+        //Elemental Slash
         comboDictionary.Add(Combo1Condition, Combo1Attack);
     }
 
+    #region combo Animation Event
+
+    public void OnCombo1AnimationPlayed()
+    {
+        int randomInt = Random.Range(1, 4);
+        switch (randomInt)
+        {   
+
+            case 1:
+                SpawnProjectile(iceProjectile);
+                break;
+            case 2:
+                SpawnProjectile(fireProjectile);
+                break;
+            case 3:
+                SpawnProjectile(earthProjectile);
+                break;
+            default:
+                break;
+        }
+    }
+
+    #endregion
 
 
 

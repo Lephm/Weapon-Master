@@ -31,6 +31,19 @@ public class PlayerOfflineController : MonoBehaviour
 
     void UpdateOffLineInput() //for debugging
     {
+        float horizontalInput = Input.GetAxisRaw("Horizontal");
+        if (horizontalInput != 0 && characterController.moveDirection.x != horizontalInput)
+        {
+            characterController.Flip(horizontalInput == 1);
+        }
+
+        characterController.moveDirection = new Vector2();
+        characterController.moveDirection.x = horizontalInput;
+        //jump input
+        if (Input.GetKeyDown(jumpKey) && characterController.GroundCheck())
+        {
+            characterController.jump = true;
+        }
         if (Input.GetKeyDown(blockKey) && characterController.GroundCheck())
         {
             characterController.Block();

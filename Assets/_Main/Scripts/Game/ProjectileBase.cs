@@ -53,7 +53,7 @@ public class ProjectileBase : MonoBehaviourPunCallbacks
         Destroy(this.gameObject);
     }
 
-    public bool IsCollidedWithLocalPlayer(Collider2D collision)
+    public bool IsCollidedWithOwner(Collider2D collision)
     {
         return owner == collision.gameObject;
     }
@@ -64,7 +64,7 @@ public class ProjectileBase : MonoBehaviourPunCallbacks
 
     public virtual void OnTriggerEnter2D(Collider2D collision)
     {   
-      
+
     }
 
 }

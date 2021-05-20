@@ -12,7 +12,7 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks,IPunObservable
     public delegate bool ComboCondition(List<int> attackInputSchedule);
     public delegate void ComboAttack();
     Rigidbody2D rb;
-    Animator anim;
+    public Animator anim;
     public TextMeshProUGUI nameDisplay;
     public PhotonView view;
     #region movement
@@ -55,6 +55,12 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks,IPunObservable
     float timeSinceLastBlock;
     #endregion
 
+    [Header("Audio")]
+    public AudioSource m_audio;
+    public AudioClip onAttack1Audio;
+    public AudioClip onAttack2Audio;
+    public AudioClip jumpAudio;
+    public AudioClip ultimateAttackAudio;
     #region RPC
 
     [PunRPC]
@@ -95,6 +101,7 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks,IPunObservable
         nameDisplay = GetComponentInChildren<TextMeshProUGUI>();
         view = GetComponent<PhotonView>();
         SetupComboDictionary();
+        m_audio = GetComponent<AudioSource>();
 
     }
 
@@ -166,9 +173,10 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks,IPunObservable
         
         //jump
         if(jump)
-        {
+        {   
             rb.velocity = Vector2.up * jumpSpeed;
             anim.SetTrigger("jump");
+            TriggerAnAudioClip(jumpAudio);
             jump = false;
         }
         
@@ -294,7 +302,8 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks,IPunObservable
 
     public virtual void UltimateAttack()
     {
-
+        TriggerAnAudioClip(ultimateAttackAudio);
+        anim.SetTrigger("ultimateAttack");
     }
     public virtual void SetupComboDictionary()
     {
@@ -306,16 +315,19 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks,IPunObservable
         print("SuccessFully Block");
     }
 
+    #region AnimationEvents
     //Animation Event
     public virtual void OnAttack1Hit()
     {
         ResetAllTriggers();
+        TriggerAnAudioClip(onAttack1Audio);
     }
 
     //Animation Event
     public virtual void OnAttack2Hit()
     {
         ResetAllTriggers();
+        TriggerAnAudioClip(onAttack2Audio);
     }
 
     //Animation Event
@@ -324,6 +336,8 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks,IPunObservable
         print("End Block");
         isBlocking = false;
     }
+
+    #endregion
 
     #endregion
 
@@ -364,6 +378,14 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks,IPunObservable
         return true;
     }
 
+    public void TriggerAnAudioClip(AudioClip audioClip)
+    {
+        if(audioClip != null)
+        {
+            m_audio.clip = audioClip;
+            m_audio.Play();
+        }
+    }
     //To sync the block/ultimate meter
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
@@ -376,4 +398,6 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks,IPunObservable
 
         }
     }
+
+    
 }

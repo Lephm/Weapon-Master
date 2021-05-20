@@ -26,13 +26,16 @@ public class GameManager : MonoBehaviourPunCallbacks, IOnEventCallback
     public GameObject restartButton;
     public Text winnerAnnounceText;
     #endregion
-
+    [Header("Audio")]
+    public AudioSource m_audio;
+    public AudioClip backgroundMusic;
 
     private void Awake()
     {
         SpawnPlayers();
         WinnerFoundEvent += OnWinnerFound;
         PhotonNetwork.AutomaticallySyncScene = true;
+        m_audio = GetComponent<AudioSource>();
 
     }
     public virtual void OnEnable()
@@ -63,6 +66,13 @@ public class GameManager : MonoBehaviourPunCallbacks, IOnEventCallback
         if(PhotonNetwork.IsMasterClient)
         {
             InvokeRepeating("AttempToFindWinner", 10.0f, 2.0f);
+        }
+
+        //Play background music
+        if(backgroundMusic != null)
+        {
+            m_audio.clip = backgroundMusic;
+            m_audio.Play();
         }
     }
 

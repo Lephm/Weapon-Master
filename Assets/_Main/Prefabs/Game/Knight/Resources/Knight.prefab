@@ -61,7 +61,7 @@ Animator:
   m_GameObject: {fileID: 146372298238596509}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: d749d2310792d0e4a896d6e22818f4a5, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7b76bf0a1d4b6564e8e0c72e7a8ffcba, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcbaaf56a9e5bff4ca48000996d61dcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   nameDisplay: {fileID: 1217835803834873284}
   view: {fileID: 0}
   groundCheckOffset: 0.3
@@ -115,10 +116,17 @@ MonoBehaviour:
   attack2Damage: 5
   inputBufferTimeBeforeReset: 1.5
   blockCoolDown: 5
+  m_audio: {fileID: 0}
+  onAttack1Audio: {fileID: 0}
+  onAttack2Audio: {fileID: 0}
+  jumpAudio: {fileID: 0}
+  ultimateAttackAudio: {fileID: 0}
   characterAvatar: {fileID: 21300000, guid: ae297123f091bbf4e8f1835eb98fb293, type: 3}
   attackPos: {fileID: 9161528918486904520}
   attackRadius: 1
-  combo1Projectile: {fileID: 7942914458817872584, guid: eb58f4cffbc20e1498d58afa12ea19a2, type: 3}
+  iceProjectile: {fileID: 0}
+  fireProjectile: {fileID: 0}
+  earthProjectile: {fileID: 0}
 --- !u!114 &4731044898927883708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,31 +141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowLayerWeightsInspector: 1
   ShowParameterInspector: 1
-  m_SynchronizeParameters:
-  - Type: 1
-    SynchronizeType: 2
-    Name: speed
-  - Type: 9
-    SynchronizeType: 0
-    Name: block
-  - Type: 9
-    SynchronizeType: 0
-    Name: attack1
-  - Type: 9
-    SynchronizeType: 0
-    Name: attack2
-  - Type: 4
-    SynchronizeType: 0
-    Name: Grounded
-  - Type: 9
-    SynchronizeType: 2
-    Name: jump
-  - Type: 9
-    SynchronizeType: 0
-    Name: takeDamage
-  - Type: 4
-    SynchronizeType: 0
-    Name: death
+  m_SynchronizeParameters: []
   m_SynchronizeLayers:
   - SynchronizeType: 0
     LayerIndex: 0
