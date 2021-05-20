@@ -20,6 +20,7 @@ public class Health : MonoBehaviourPunCallbacks
 
     public void TakeDamage(float damage)
     {   
+        //Only apply damage on master client
         if (PhotonNetwork.IsMasterClient)
         {
             currentHealth -= damage;

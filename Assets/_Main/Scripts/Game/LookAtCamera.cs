@@ -15,8 +15,12 @@ public class LookAtCamera : MonoBehaviour
     public void GetCamera()
     {
         if (currentCamera == null)
-        {
-            currentCamera = Camera.current.transform;
+        {   
+            if(Camera.current != null)
+            {
+                currentCamera = Camera.current.transform;
+            }
+            
         }
     }
     // Update is called once per frame

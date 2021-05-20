@@ -699,7 +699,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3994969287093980184}
   - component: {fileID: 2815025674116415967}
-  - component: {fileID: 3155671044688928437}
   - component: {fileID: 6830856784229165234}
   m_Layer: 0
   m_Name: main2DCineCamera
@@ -745,8 +744,8 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
-    OrthographicSize: 10
-    NearClipPlane: 0.001
+    OrthographicSize: 5
+    NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
     LensShift: {x: 0, y: 0}
@@ -758,22 +757,6 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 3425802341567972911}
---- !u!114 &3155671044688928437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3129507148604689297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5eb80d8e62d9d145bb50fb783c0f731, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PositionMode: 0
-  m_RotationMode: 0
-  m_UpdateMethod: 2
-  m_Targets: []
 --- !u!114 &6830856784229165234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1167,7 +1150,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -468, y: -472}
+  m_AnchoredPosition: {x: -432, y: 338}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4545860197475855405
@@ -1224,7 +1207,7 @@ MonoBehaviour:
     m_Left: 0
     m_Right: 0
     m_Top: 0
-    m_Bottom: 0
+    m_Bottom: 20
   m_ChildAlignment: 6
   m_Spacing: 300
   m_ChildForceExpandWidth: 1

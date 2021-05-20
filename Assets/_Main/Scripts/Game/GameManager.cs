@@ -51,7 +51,8 @@ public class GameManager : MonoBehaviourPunCallbacks, IOnEventCallback
     private void Start()
     {   
         // invoke after 1.5 secs to make sure all players is instatiated
-        Invoke("SetPlayerDisplayNamesAndCineCamera", 1.5f);
+        Invoke("SetPlayerDisplayNames", 1.5f);
+        Invoke("SetupCine2DCamera", 1.5f);
         //Close room when the game start
         if(PhotonNetwork.IsMasterClient)
         {
@@ -65,7 +66,7 @@ public class GameManager : MonoBehaviourPunCallbacks, IOnEventCallback
         }
     }
 
-    public void SetPlayerDisplayNamesAndCineCamera()
+    public void SetPlayerDisplayNames()
     {
         //Set players' displayName
         CharacterControllerBase[] characters = FindObjectsOfType<CharacterControllerBase>(false);
@@ -88,12 +89,6 @@ public class GameManager : MonoBehaviourPunCallbacks, IOnEventCallback
             }
 
             CreateANewCharacterDisplay(character);
-        }
-        //Setup camera
-        SetupCine2DCamera(characters.Length);
-        for(int i = 0; i < characters.Length; i++)
-        {
-            AddFollowersToCineCamera(i, characters[i]);
         }
     }
 
@@ -273,51 +268,43 @@ public class GameManager : MonoBehaviourPunCallbacks, IOnEventCallback
     {
         PhotonNetwork.LoadLevel("Room");
     }
-    public void SetupCine2DCamera(int playerNums)
+    public void SetupCine2DCamera()
     {
         if (mainCine2DCamera == null) return;
-        
-        if(boundaries == null)
+
+        if (boundaries == null)
         {
             GameObject bound = GameObject.Find("Boundaries");
-            boundaries = bound.GetComponent<Collider2D>();
+            if(bound != null)
+            {
+                boundaries = bound.GetComponent<Collider2D>();
+            }  
         }
 
-        if(boundaries != null)
+        if (boundaries != null)
         {
             CinemachineConfiner cinemachineConfiner = mainCine2DCamera.GetComponent<CinemachineConfiner>();
-            if(cinemachineConfiner != null)
+            if (cinemachineConfiner != null)
             {
                 cinemachineConfiner.m_BoundingShape2D = boundaries;
             }
         }
-        CinemachineTargetGroup cinemachineTargetGroup = mainCine2DCamera.GetComponent<CinemachineTargetGroup>();
-        if (cinemachineTargetGroup != null)
+
+        CharacterControllerBase[] characters = FindObjectsOfType<CharacterControllerBase>(false);
+        CinemachineVirtualCamera cinemachine = mainCine2DCamera.GetComponent<CinemachineVirtualCamera>();
+        foreach (CharacterControllerBase character in characters)
         {
-            cinemachineTargetGroup.m_Targets = new CinemachineTargetGroup.Target[playerNums];
+            PhotonView view = character.GetComponent<PhotonView>();
+            if (view != null && cinemachine != null)
+            {
+                if (view.IsMine)
+                {
+                    cinemachine.Follow = view.transform;
+                    break;
+                }
+            }
         }
 
-    }
 
-    public void AddFollowersToCineCamera(int index,CharacterControllerBase character)
-    {
-        if (mainCine2DCamera == null) return;
-        CinemachineTargetGroup cinemachineTargetGroup = mainCine2DCamera.GetComponent<CinemachineTargetGroup>();
-        if(cinemachineTargetGroup != null)
-        {   
-            
-            CinemachineTargetGroup.Target newTarget;
-            newTarget.target = character.transform;
-            newTarget.weight = 1;//default settings?
-            newTarget.radius = 0;//default settings?
-            cinemachineTargetGroup.m_Targets[index] = newTarget;
-        }
-
-        else
-        {
-            Debug.LogError("Null cinemachine target group");
-        }
-    }
-
-    
+    }   
 }
