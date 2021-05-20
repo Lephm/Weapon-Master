@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using TMPro;
 using Photon.Realtime;
 using UnityEngine.SceneManagement;
+using System;
 public class MainMenu : MonoBehaviourPunCallbacks
 {
 
@@ -15,6 +16,10 @@ public class MainMenu : MonoBehaviourPunCallbacks
     public TextMeshProUGUI errorMessage;
     public TextMeshProUGUI roomPrivacyText;
     public bool roomIsPublic = true;
+    public int maxPlayers = 10;
+    [NonSerialized] const int minPlayers = 2;
+    public int currentPlayerInRoomSettings = 2;
+    public TextMeshProUGUI playerCountDisplay;
 
     private void Start()
     {
@@ -24,6 +29,8 @@ public class MainMenu : MonoBehaviourPunCallbacks
         {
             PhotonNetwork.LeaveRoom();
         }
+        currentPlayerInRoomSettings = minPlayers;
+        playerCountDisplay.text = currentPlayerInRoomSettings.ToString();
     }
     public void ChangeMenu(int index)
     {
@@ -72,7 +79,7 @@ public class MainMenu : MonoBehaviourPunCallbacks
     public void CreateRoom()
     {
         RoomOptions roomOptions = new RoomOptions();
-        roomOptions.MaxPlayers = 2;
+        roomOptions.MaxPlayers = (byte)currentPlayerInRoomSettings;
         roomOptions.IsVisible = roomIsPublic;
         PhotonNetwork.CreateRoom(roomNameInput.text, roomOptions);
     }
@@ -126,6 +133,15 @@ public class MainMenu : MonoBehaviourPunCallbacks
         PhotonNetwork.LocalPlayer.NickName = playerNameInput.text;
         print(PhotonNetwork.LocalPlayer.NickName + "Successfully join or create room");
 
+    }
+    public void IncreasePlayersNum()
+    {
+        currentPlayerInRoomSettings++;
+        if(currentPlayerInRoomSettings > maxPlayers)
+        {
+            currentPlayerInRoomSettings = minPlayers;
+        }
+        playerCountDisplay.text = currentPlayerInRoomSettings.ToString();
     }
 
 

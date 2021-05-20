@@ -64,7 +64,7 @@ public class RoomLobby : MonoBehaviourPunCallbacks
 
     public void StartGame()
     {
-        PhotonNetwork.LoadLevel("TestGame");
+        PhotonNetwork.LoadLevel(RoomSelection.currentLevelSelectionName);
     }
 
     public void BackToMainMenu()

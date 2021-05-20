@@ -31,14 +31,16 @@ public class GameManager : MonoBehaviourPunCallbacks, IOnEventCallback
         WinnerFoundEvent += OnWinnerFound;
         PhotonNetwork.AutomaticallySyncScene = true;
     }
-    private void OnEnable()
+    public virtual void OnEnable()
     {
+        base.OnEnable();
         Health.OnCharacterDieEvent += OnPlayerDie;
         PhotonNetwork.AddCallbackTarget(this); 
     }
 
-    private void OnDisable()
+    public virtual void OnDisable()
     {
+        base.OnDisable();
         Health.OnCharacterDieEvent -= OnPlayerDie;
         PhotonNetwork.RemoveCallbackTarget(this);
     }
@@ -165,7 +167,16 @@ public class GameManager : MonoBehaviourPunCallbacks, IOnEventCallback
     {
         diePanel.SetActive(false);
         endGamePanel.SetActive(true);
-        winnerAnnounceText.text = "Winner is " + winner.view.Owner.NickName;
+        if(winner != null)
+        {
+            winnerAnnounceText.text = "Winner is " + winner.view.Owner.NickName;
+        }
+
+        else
+        {
+            winnerAnnounceText.text = "Draw";
+        }
+        
         if(PhotonNetwork.IsMasterClient)
         {
             winnerAnnounceText.text += "\n PLease Restart the game";
@@ -189,10 +200,19 @@ public class GameManager : MonoBehaviourPunCallbacks, IOnEventCallback
             if (characters.Length == 1)
             {
                 CharacterControllerBase character = characters[0];
-                int winnerViewID = character.view.ViewID;
-                NetworkFoundWinnerEventTrigger(winnerViewID);
-
+                int winnerViewID = 12323211; // this is just a random number for place holder
+                if (character != null)
+                {
+                    winnerViewID = character.view.ViewID;
+                    NetworkFoundWinnerEventTrigger(winnerViewID);
+                }
+                
+                else
+                {
+                    NetworkFoundWinnerEventTrigger(winnerViewID);
+                }           
             }
+
         }
     }
 
@@ -211,15 +231,31 @@ public class GameManager : MonoBehaviourPunCallbacks, IOnEventCallback
             int winnerID = (int)photonEvent.CustomData;
             print(winnerID);
             PhotonView winner = PhotonView.Find(winnerID);
-            if (winner == null) return;
-            CharacterControllerBase winnerChar = winner.GetComponent<CharacterControllerBase>();
-            if (winnerChar == null) return;
-            if (WinnerFoundEvent != null)
+            CharacterControllerBase winnerChar = null;
+            if (winner == null)
             {
-                WinnerFoundEvent.Invoke(winnerChar);
+                if (WinnerFoundEvent != null)
+                {
+                    WinnerFoundEvent.Invoke(null);
+                }
+                
             }
-
-
+            else
+            {
+                winnerChar = winner.GetComponent<CharacterControllerBase>();
+                if (winnerChar == null)
+                {
+                    if (WinnerFoundEvent != null)
+                    {
+                        WinnerFoundEvent.Invoke(null);
+                    }
+                }
+                else
+                {
+                    WinnerFoundEvent.Invoke(winnerChar);
+                }
+            }
+            
         }
     }
 
