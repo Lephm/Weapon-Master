@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationWaitTime: 0.25
-  burnTimeBetweenEach: 0.25
+  burnTimeBetweenEach: 0.5
   burnDamage: 2
   burnTimes: 4
   rends:

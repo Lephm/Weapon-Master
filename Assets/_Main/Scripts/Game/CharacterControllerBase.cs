@@ -25,7 +25,7 @@ public class CharacterControllerBase : MonoBehaviourPunCallbacks,IPunObservable
     float jumpSpeed = 35;
     [SerializeField] float rememberGroundedFor = 0.5f;
     float lastTimeGrounded;
-    bool isGrounded = false;
+    public bool isGrounded = false;
     LayerMask groundLayer;
     public Vector2 moveDirection;
     CapsuleCollider2D characterCollider;

@@ -14,6 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   moveRight: 0
+  owner: {fileID: 0}
+  destroyEffect: {fileID: 0}
+  lifeTime: 10
+  projSprite: {fileID: 0}
 --- !u!1001 &2961833650439894954
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24,6 +28,18 @@ PrefabInstance:
     - target: {fileID: 5125213606365099362, guid: 5fd1cf082a655ed44a1f706660903b12, type: 3}
       propertyPath: m_Name
       value: KnightCombo1Projectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 5125213606365099365, guid: 5fd1cf082a655ed44a1f706660903b12, type: 3}
+      propertyPath: m_Color.b
+      value: 0.108775325
+      objectReference: {fileID: 0}
+    - target: {fileID: 5125213606365099365, guid: 5fd1cf082a655ed44a1f706660903b12, type: 3}
+      propertyPath: m_Color.g
+      value: 0.18646388
+      objectReference: {fileID: 0}
+    - target: {fileID: 5125213606365099365, guid: 5fd1cf082a655ed44a1f706660903b12, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5943396
       objectReference: {fileID: 0}
     - target: {fileID: 5125213606365099366, guid: 5fd1cf082a655ed44a1f706660903b12, type: 3}
       propertyPath: m_RootOrder

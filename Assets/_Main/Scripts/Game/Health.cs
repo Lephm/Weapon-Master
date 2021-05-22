@@ -19,33 +19,11 @@ public class Health : MonoBehaviourPunCallbacks
     }
 
     public void TakeDamage(float damage)
-    {   
+    {
         //Only apply damage on master client
         if (PhotonNetwork.IsMasterClient)
         {
-            currentHealth -= damage;
-            view.RPC("ResetToServerHealth", RpcTarget.AllBuffered, currentHealth);
-        }
-        anim.SetTrigger("takeDamage");
-        print("take Damage");
-        print(currentHealth);
-        if(currentHealth <= 0)
-        {   
-            print("Die");
-            //TODO: Spawn Particle Effect
-            if(OnCharacterDieEvent != null)
-            {
-                OnCharacterDieEvent.Invoke(this);
-            }
-            //hasDied is to check for animation that transits from any states
-            anim.SetBool("hasDied", true);
-            if(hasPlayedDeathAnimation == false)
-            {
-                hasPlayedDeathAnimation = true;
-                anim.SetTrigger("die");
-            }
-            
-            Destroy(this.gameObject, 5.0f);
+            view.RPC("TakeDamageRPC", RpcTarget.AllBuffered, damage);
         }
     }
 
@@ -60,9 +38,30 @@ public class Health : MonoBehaviourPunCallbacks
     }
 
     [PunRPC]
-    public void ResetToServerHealth(float currentCharHealth)
+    public void TakeDamageRPC(float damage)
     {
-        currentHealth = currentCharHealth;
+        currentHealth -= damage;
+        anim.SetTrigger("takeDamage");
+        print("take Damage");
+        print(currentHealth);
+        if (currentHealth <= 0)
+        {
+            print("Die");
+            //TODO: Spawn Particle Effect
+            if (OnCharacterDieEvent != null)
+            {
+                OnCharacterDieEvent.Invoke(this);
+            }
+            //hasDied is to check for animation that transits from any states
+            anim.SetBool("hasDied", true);
+            if (hasPlayedDeathAnimation == false)
+            {
+                hasPlayedDeathAnimation = true;
+                anim.SetTrigger("die");
+            }
+
+            Destroy(this.gameObject, 5.0f);
+        }
     }
 
 

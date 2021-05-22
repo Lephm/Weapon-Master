@@ -74,7 +74,7 @@ public class KnightController : CharacterControllerBase
         condition.Add(1);
         condition.Add(1);
         condition.Add(2);
-        return CheckAComboCondition(condition);
+        return CheckAComboCondition(condition) && isGrounded;
     }
 
     public void Combo1Attack()

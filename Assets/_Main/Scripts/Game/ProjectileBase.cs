@@ -17,7 +17,8 @@ public class ProjectileBase : MonoBehaviourPunCallbacks
         Destroy(this.gameObject,lifeTime);
     }
     public void SetupProjectile(float spawnerYRotation, GameObject spawner)
-    {
+    {   
+        
         if (spawnerYRotation == -180 || spawnerYRotation == 180)
         {
             moveRight = false;
@@ -93,6 +94,11 @@ public class ProjectileBase : MonoBehaviourPunCallbacks
             return controllerBase.GetCurrentlyIsBlocking();
         }
     }
+
+   public CharacterControllerBase GetOwnerChar()
+   {
+        return owner.GetComponent<CharacterControllerBase>();
+   }
 
     public virtual void OnTriggerEnter2D(Collider2D collision)
     {   

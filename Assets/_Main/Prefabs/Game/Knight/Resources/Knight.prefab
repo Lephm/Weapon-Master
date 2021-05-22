@@ -106,6 +106,7 @@ MonoBehaviour:
   moveSpeed: 0
   jumpSpeed: 0
   rememberGroundedFor: 0.5
+  isGrounded: 0
   moveDirection: {x: 0, y: 0}
   jump: 0
   attackInputTypeSchedule: 
@@ -126,7 +127,7 @@ MonoBehaviour:
   attackRadius: 1
   iceProjectile: {fileID: 2772892473721895584, guid: 6ed08775f620942aa808d04d4bf4dcc6, type: 3}
   fireProjectile: {fileID: 7281500039208301752, guid: 8d7be18d33a6940678badbea3e14a8d1, type: 3}
-  earthProjectile: {fileID: 5125213606365099362, guid: 5fd1cf082a655ed44a1f706660903b12, type: 3}
+  earthProjectile: {fileID: 5125213606365099362, guid: 9555bc4fad775db41baf340e7a82a03c, type: 3}
 --- !u!114 &4731044898927883708
 MonoBehaviour:
   m_ObjectHideFlags: 0

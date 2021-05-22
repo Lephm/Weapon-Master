@@ -5,7 +5,7 @@ using UnityEngine;
 public class BurnEffect : MonoBehaviour
 {
     public float animationWaitTime = 0.25f;
-    public float burnTimeBetweenEach = 0.25f;
+    public float burnTimeBetweenEach = 0.5f;
     public float burnDamage = 2.0f;
     public int burnTimes = 4;
     public SpriteRenderer[] rends;
@@ -43,10 +43,11 @@ public class BurnEffect : MonoBehaviour
                 {
                     continue;
                 }
-                Health health = collider.GetComponent<Health>();
-                if(health != null)
+                CharacterControllerBase enemy = collider.GetComponent<CharacterControllerBase>();
+                CharacterControllerBase ownerChar = owner.GetComponent<CharacterControllerBase>();
+                if(enemy != null && owner != null)
                 {
-                    health.TakeDamage(burnDamage);
+                    CharacterControllerBase.ApplyDamage(ownerChar, enemy, burnDamage, false);
                 }
             }
 
